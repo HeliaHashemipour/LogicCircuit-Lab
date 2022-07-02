@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -lib "unisims_ver" -lib "unimacro_ver" -lib "xilinxcorelib_ver" -lib "secureip" -o "C:/Users/f/Desktop/rojina/madar Manteghi/Smart Home Management System/Module07/Control_unit_tb_isim_beh.exe" -prj "C:/Users/f/Desktop/rojina/madar Manteghi/Smart Home Management System/Module07/Control_unit_tb_beh.prj" "work.Control_unit_tb" "work.glbl" 

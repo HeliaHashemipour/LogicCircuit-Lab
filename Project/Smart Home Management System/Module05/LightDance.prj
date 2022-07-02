@@ -1,0 +1,3 @@
+verilog work "LightDanceUtils.v"
+verilog work "DFlop.v"
+verilog work "LightDance.v"

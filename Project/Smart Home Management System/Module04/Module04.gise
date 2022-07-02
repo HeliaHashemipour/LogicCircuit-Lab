@@ -1,0 +1,238 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<generated_project xmlns="http://www.xilinx.com/XMLSchema" xmlns:xil_pn="http://www.xilinx.com/XMLSchema">
+
+  <!--                                                          -->
+
+  <!--             For tool use only. Do not edit.              -->
+
+  <!--                                                          -->
+
+  <!-- ProjectNavigator created generated project file.         -->
+
+  <!-- For use in tracking generated file and other information -->
+
+  <!-- allowing preservation of process status.                 -->
+
+  <!--                                                          -->
+
+  <!-- Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved. -->
+
+  <version xmlns="http://www.xilinx.com/XMLSchema">11.1</version>
+
+  <sourceproject xmlns="http://www.xilinx.com/XMLSchema" xil_pn:fileType="FILE_XISE" xil_pn:name="Module04.xise"/>
+
+  <files xmlns="http://www.xilinx.com/XMLSchema">
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="ActiveLamps_isim_beh.exe"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="LampState_isim_beh.exe"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGDBUILD_LOG" xil_pn:name="LightingSystem.bld"/>
+    <file xil_pn:fileType="FILE_CMD_LOG" xil_pn:name="LightingSystem.cmd_log"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_LSO" xil_pn:name="LightingSystem.lso"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NCD" xil_pn:name="LightingSystem.ncd" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGC" xil_pn:name="LightingSystem.ngc"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGD" xil_pn:name="LightingSystem.ngd"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGR" xil_pn:name="LightingSystem.ngr"/>
+    <file xil_pn:fileType="FILE_PAD_MISC" xil_pn:name="LightingSystem.pad"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_PAR_REPORT" xil_pn:name="LightingSystem.par" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_PCF" xil_pn:name="LightingSystem.pcf" xil_pn:subbranch="Map"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="LightingSystem.prj"/>
+    <file xil_pn:fileType="FILE_TRCE_MISC" xil_pn:name="LightingSystem.ptwx"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_STX" xil_pn:name="LightingSystem.stx"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_REPORT" xil_pn:name="LightingSystem.syr"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_TIMING_TXT_REPORT" xil_pn:name="LightingSystem.twr" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_TIMING_XML_REPORT" xil_pn:name="LightingSystem.twx" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_UNROUTES" xil_pn:name="LightingSystem.unroutes" xil_pn:subbranch="Par"/>
+    <file xil_pn:fileType="FILE_XPI" xil_pn:name="LightingSystem.xpi"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST" xil_pn:name="LightingSystem.xst"/>
+    <file xil_pn:fileType="FILE_HTML" xil_pn:name="LightingSystem_envsettings.html"/>
+    <file xil_pn:fileType="FILE_NCD" xil_pn:name="LightingSystem_guide.ncd" xil_pn:origination="imported"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="LightingSystem_isim_beh.exe"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_MAP_REPORT" xil_pn:name="LightingSystem_map.map" xil_pn:subbranch="Map"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_MAP_REPORT" xil_pn:name="LightingSystem_map.mrp" xil_pn:subbranch="Map"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NCD" xil_pn:name="LightingSystem_map.ncd" xil_pn:subbranch="Map"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGM" xil_pn:name="LightingSystem_map.ngm" xil_pn:subbranch="Map"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="LightingSystem_map.xrpt"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="LightingSystem_ngdbuild.xrpt"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_PAD_EXCEL_REPORT" xil_pn:name="LightingSystem_pad.csv" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_PAD_TXT_REPORT" xil_pn:name="LightingSystem_pad.txt" xil_pn:subbranch="Par"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="LightingSystem_par.xrpt"/>
+    <file xil_pn:fileType="FILE_HTML" xil_pn:name="LightingSystem_summary.html"/>
+    <file xil_pn:fileType="FILE_FITTER_REPORT" xil_pn:name="LightingSystem_summary.xml"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="LightingSystem_tb_beh.prj"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="LightingSystem_tb_isim_beh.exe"/>
+    <file xil_pn:fileType="FILE_ISIM_MISC" xil_pn:name="LightingSystem_tb_isim_beh.wdb"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="LightingSystem_tb_stx_beh.prj"/>
+    <file xil_pn:fileType="FILE_WEBTALK" xil_pn:name="LightingSystem_usage.xml"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="LightingSystem_xst.xrpt"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="Windowshade_regDegree_isim_beh.exe"/>
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="_ngo"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="_stx_beh.prj"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/map.xmsgs"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/ngdbuild.xmsgs"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/par.xmsgs"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/trce.xmsgs"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/xst.xmsgs"/>
+    <file xil_pn:fileType="FILE_LOG" xil_pn:name="fuse.log"/>
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="isim"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_CMD" xil_pn:name="isim.cmd"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_LOG" xil_pn:name="isim.log"/>
+    <file xil_pn:fileType="FILE_FITTER_REPORT" xil_pn:name="webtalk_pn.xml"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_INI" xil_pn:name="xilinxsim.ini"/>
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="xlnx_auto_0_xdb"/>
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="xst"/>
+  </files>
+
+  <transforms xmlns="http://www.xilinx.com/XMLSchema">
+    <transform xil_pn:end_ts="1611607485" xil_pn:name="TRAN_copyInitialToAbstractSimulation" xil_pn:start_ts="1611607485">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1612595283" xil_pn:in_ck="-5780414835195787268" xil_pn:name="TRAN_copyAbstractToPostAbstractSimulation" xil_pn:start_ts="1612595283">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="ActiveLamps.v"/>
+      <outfile xil_pn:name="LampState.v"/>
+      <outfile xil_pn:name="LightingSystem.v"/>
+      <outfile xil_pn:name="LightingSystemUtils.v"/>
+      <outfile xil_pn:name="LightingSystem_tb.v"/>
+      <outfile xil_pn:name="WindowShadeDegree.v"/>
+    </transform>
+    <transform xil_pn:end_ts="1612595310" xil_pn:name="TRAN_xawsToSimhdl" xil_pn:prop_ck="4393292006683527591" xil_pn:start_ts="1612595310">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1612595310" xil_pn:name="TRAN_schematicsToHdlSim" xil_pn:prop_ck="-7946015392818933915" xil_pn:start_ts="1612595310">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1611775595" xil_pn:name="TRAN_regenerateCoresSim" xil_pn:prop_ck="5592457281950038363" xil_pn:start_ts="1611775595">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1612595310" xil_pn:in_ck="-5780414835195787268" xil_pn:name="TRAN_copyPostAbstractToPreSimulation" xil_pn:start_ts="1612595310">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="ActiveLamps.v"/>
+      <outfile xil_pn:name="LampState.v"/>
+      <outfile xil_pn:name="LightingSystem.v"/>
+      <outfile xil_pn:name="LightingSystemUtils.v"/>
+      <outfile xil_pn:name="LightingSystem_tb.v"/>
+      <outfile xil_pn:name="WindowShadeDegree.v"/>
+    </transform>
+    <transform xil_pn:end_ts="1612595314" xil_pn:in_ck="-5780414835195787268" xil_pn:name="TRAN_ISimulateBehavioralModelRunFuse" xil_pn:prop_ck="7224428260485331149" xil_pn:start_ts="1612595310">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="OutputChanged"/>
+      <outfile xil_pn:name="LightingSystem_tb_beh.prj"/>
+      <outfile xil_pn:name="LightingSystem_tb_isim_beh.exe"/>
+      <outfile xil_pn:name="fuse.log"/>
+      <outfile xil_pn:name="isim"/>
+      <outfile xil_pn:name="isim.log"/>
+      <outfile xil_pn:name="xilinxsim.ini"/>
+    </transform>
+    <transform xil_pn:end_ts="1612617909" xil_pn:in_ck="541815021796240544" xil_pn:name="TRAN_ISimulateBehavioralModel" xil_pn:prop_ck="-4941333200821952080" xil_pn:start_ts="1612617908">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="OutputChanged"/>
+      <outfile xil_pn:name="LightingSystem_tb_isim_beh.wdb"/>
+      <outfile xil_pn:name="isim.cmd"/>
+      <outfile xil_pn:name="isim.log"/>
+    </transform>
+    <transform xil_pn:end_ts="1611776904" xil_pn:name="TRAN_copyInitialToXSTAbstractSynthesis" xil_pn:start_ts="1611776904">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1611776904" xil_pn:name="TRAN_schematicsToHdl" xil_pn:prop_ck="-7866636834387661232" xil_pn:start_ts="1611776904">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1611776904" xil_pn:name="TRAN_regenerateCores" xil_pn:prop_ck="5592457281950038363" xil_pn:start_ts="1611776904">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1611776904" xil_pn:name="TRAN_SubProjectAbstractToPreProxy" xil_pn:start_ts="1611776904">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1611776904" xil_pn:name="TRAN_xawsTohdl" xil_pn:prop_ck="5920889287272876498" xil_pn:start_ts="1611776904">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1611776904" xil_pn:name="TRAN_SubProjectPreToStructuralProxy" xil_pn:prop_ck="-5609353907947751920" xil_pn:start_ts="1611776904">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1611776904" xil_pn:name="TRAN_platgen" xil_pn:prop_ck="7752200808675773605" xil_pn:start_ts="1611776904">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1612507112" xil_pn:in_ck="-1371745646121095192" xil_pn:name="TRANEXT_xstsynthesize_spartan6" xil_pn:prop_ck="-2116916422448485750" xil_pn:start_ts="1612507101">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="OutputChanged"/>
+      <outfile xil_pn:name="LightingSystem.lso"/>
+      <outfile xil_pn:name="LightingSystem.ngc"/>
+      <outfile xil_pn:name="LightingSystem.ngr"/>
+      <outfile xil_pn:name="LightingSystem.prj"/>
+      <outfile xil_pn:name="LightingSystem.stx"/>
+      <outfile xil_pn:name="LightingSystem.syr"/>
+      <outfile xil_pn:name="LightingSystem.xst"/>
+      <outfile xil_pn:name="LightingSystem_tb_beh.prj"/>
+      <outfile xil_pn:name="LightingSystem_tb_stx_beh.prj"/>
+      <outfile xil_pn:name="LightingSystem_xst.xrpt"/>
+      <outfile xil_pn:name="_xmsgs/xst.xmsgs"/>
+      <outfile xil_pn:name="webtalk_pn.xml"/>
+      <outfile xil_pn:name="xst"/>
+    </transform>
+    <transform xil_pn:end_ts="1611776682" xil_pn:name="TRAN_compileBCD2" xil_pn:prop_ck="-7613000825947456643" xil_pn:start_ts="1611776682">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1612507124" xil_pn:in_ck="-3150781133899699967" xil_pn:name="TRANEXT_ngdbuild_FPGA" xil_pn:prop_ck="6863949346472834876" xil_pn:start_ts="1612507116">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="LightingSystem.bld"/>
+      <outfile xil_pn:name="LightingSystem.ngd"/>
+      <outfile xil_pn:name="LightingSystem_ngdbuild.xrpt"/>
+      <outfile xil_pn:name="_ngo"/>
+      <outfile xil_pn:name="_xmsgs/ngdbuild.xmsgs"/>
+    </transform>
+    <transform xil_pn:end_ts="1612507141" xil_pn:in_ck="-3150781133899699966" xil_pn:name="TRANEXT_map_spartan6" xil_pn:prop_ck="304711778406361947" xil_pn:start_ts="1612507124">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="LightingSystem.pcf"/>
+      <outfile xil_pn:name="LightingSystem_map.map"/>
+      <outfile xil_pn:name="LightingSystem_map.mrp"/>
+      <outfile xil_pn:name="LightingSystem_map.ncd"/>
+      <outfile xil_pn:name="LightingSystem_map.ngm"/>
+      <outfile xil_pn:name="LightingSystem_map.xrpt"/>
+      <outfile xil_pn:name="LightingSystem_summary.xml"/>
+      <outfile xil_pn:name="LightingSystem_usage.xml"/>
+      <outfile xil_pn:name="_xmsgs/map.xmsgs"/>
+    </transform>
+    <transform xil_pn:end_ts="1612507156" xil_pn:in_ck="-5033522772514608869" xil_pn:name="TRANEXT_par_spartan6" xil_pn:prop_ck="417176447551133118" xil_pn:start_ts="1612507141">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="LightingSystem.ncd"/>
+      <outfile xil_pn:name="LightingSystem.pad"/>
+      <outfile xil_pn:name="LightingSystem.par"/>
+      <outfile xil_pn:name="LightingSystem.ptwx"/>
+      <outfile xil_pn:name="LightingSystem.unroutes"/>
+      <outfile xil_pn:name="LightingSystem.xpi"/>
+      <outfile xil_pn:name="LightingSystem_pad.csv"/>
+      <outfile xil_pn:name="LightingSystem_pad.txt"/>
+      <outfile xil_pn:name="LightingSystem_par.xrpt"/>
+      <outfile xil_pn:name="_xmsgs/par.xmsgs"/>
+    </transform>
+    <transform xil_pn:end_ts="1612507156" xil_pn:in_ck="-3150781133899700098" xil_pn:name="TRAN_postRouteTrce" xil_pn:prop_ck="445577401284416185" xil_pn:start_ts="1612507150">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="LightingSystem.twr"/>
+      <outfile xil_pn:name="LightingSystem.twx"/>
+      <outfile xil_pn:name="_xmsgs/trce.xmsgs"/>
+    </transform>
+  </transforms>
+
+</generated_project>

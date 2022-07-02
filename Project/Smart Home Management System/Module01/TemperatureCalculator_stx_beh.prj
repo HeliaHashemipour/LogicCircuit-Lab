@@ -1,0 +1,5 @@
+verilog isim_temp "Multiplier8x8.v"
+verilog isim_temp "Multiplier16x16.v"
+verilog isim_temp "AdderSubtractor32bit.v"
+verilog isim_temp "TemperatureCalculator.v"
+verilog isim_temp "C:/Xilinx/14.7/ISE_DS/ISE//verilog/src/glbl.v"

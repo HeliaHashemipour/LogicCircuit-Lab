@@ -1,0 +1,7 @@
+xst -intstyle ise -ifn "C:/Users/f/Desktop/rojina/madar Manteghi/p5/project5/encoder4x2.xst" -ofn "C:/Users/f/Desktop/rojina/madar Manteghi/p5/project5/encoder4x2.syr" 
+xst -intstyle ise -ifn "C:/Users/f/Desktop/rojina/madar Manteghi/p5/project5/encoder4x2.xst" -ofn "C:/Users/f/Desktop/rojina/madar Manteghi/p5/project5/encoder4x2.syr" 
+xst -intstyle ise -ifn "C:/Users/f/Desktop/rojina/madar Manteghi/p5/project5/encoder4x2.xst" -ofn "C:/Users/f/Desktop/rojina/madar Manteghi/p5/project5/encoder4x2.syr" 
+xst -intstyle ise -ifn "C:/Users/f/Desktop/rojina/madar Manteghi/p5/project5/encoder4x2.xst" -ofn "C:/Users/f/Desktop/rojina/madar Manteghi/p5/project5/encoder4x2.syr" 
+xst -intstyle ise -ifn "C:/Users/f/Desktop/rojina/madar Manteghi/p5/project5/encoder4x2.xst" -ofn "C:/Users/f/Desktop/rojina/madar Manteghi/p5/project5/encoder4x2.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc7z010-clg400-1 "encoder4x2.ngc" encoder4x2.ngd  
+netgen -intstyle ise -insert_glbl true -w -dir netgen/translate -ofmt verilog -sim encoder4x2.ngd encoder4x2_translate.v 

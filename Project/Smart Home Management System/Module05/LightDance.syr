@@ -1,0 +1,382 @@
+Release 14.7 - xst P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.42 secs
+ 
+--> Parameter xsthdpdir set to xst
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.42 secs
+ 
+--> Reading design: LightDance.prj
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Parsing
+  3) HDL Elaboration
+  4) HDL Synthesis
+       4.1) HDL Synthesis Report
+  5) Advanced HDL Synthesis
+       5.1) Advanced HDL Synthesis Report
+  6) Low Level Synthesis
+  7) Partition Report
+  8) Design Summary
+       8.1) Primitive and Black Box Usage
+       8.2) Device utilization summary
+       8.3) Partition Resource Summary
+       8.4) Timing Report
+            8.4.1) Clock Information
+            8.4.2) Asynchronous Control Signals Information
+            8.4.3) Timing Summary
+            8.4.4) Timing Details
+            8.4.5) Cross Clock Domains Report
+
+
+=========================================================================
+*                      Synthesis Options Summary                        *
+=========================================================================
+---- Source Parameters
+Input File Name                    : "LightDance.prj"
+Ignore Synthesis Constraint File   : NO
+
+---- Target Parameters
+Output File Name                   : "LightDance"
+Output Format                      : NGC
+Target Device                      : xc6slx4-3-tqg144
+
+---- Source Options
+Top Module Name                    : LightDance
+Automatic FSM Extraction           : YES
+FSM Encoding Algorithm             : Auto
+Safe Implementation                : No
+FSM Style                          : LUT
+RAM Extraction                     : Yes
+RAM Style                          : Auto
+ROM Extraction                     : Yes
+Shift Register Extraction          : YES
+ROM Style                          : Auto
+Resource Sharing                   : YES
+Asynchronous To Synchronous        : NO
+Shift Register Minimum Size        : 2
+Use DSP Block                      : Auto
+Automatic Register Balancing       : No
+
+---- Target Options
+LUT Combining                      : Auto
+Reduce Control Sets                : Auto
+Add IO Buffers                     : YES
+Global Maximum Fanout              : 100000
+Add Generic Clock Buffer(BUFG)     : 16
+Register Duplication               : YES
+Optimize Instantiated Primitives   : NO
+Use Clock Enable                   : Auto
+Use Synchronous Set                : Auto
+Use Synchronous Reset              : Auto
+Pack IO Registers into IOBs        : Auto
+Equivalent register Removal        : YES
+
+---- General Options
+Optimization Goal                  : Speed
+Optimization Effort                : 1
+Power Reduction                    : NO
+Keep Hierarchy                     : No
+Netlist Hierarchy                  : As_Optimized
+RTL Output                         : Yes
+Global Optimization                : AllClockNets
+Read Cores                         : YES
+Write Timing Constraints           : NO
+Cross Clock Analysis               : NO
+Hierarchy Separator                : /
+Bus Delimiter                      : <>
+Case Specifier                     : Maintain
+Slice Utilization Ratio            : 100
+BRAM Utilization Ratio             : 100
+DSP48 Utilization Ratio            : 100
+Auto BRAM Packing                  : NO
+Slice Utilization Ratio Delta      : 5
+
+=========================================================================
+
+
+=========================================================================
+*                          HDL Parsing                                  *
+=========================================================================
+Analyzing Verilog file "C:\Users\f\Desktop\rojina\madar Manteghi\Smart Home Management System\Module05\LightDanceUtils.v" into library work
+Parsing module <mux2to1>.
+Analyzing Verilog file "C:\Users\f\Desktop\rojina\madar Manteghi\Smart Home Management System\Module05\DFlop.v" into library work
+Parsing module <DFlop>.
+Analyzing Verilog file "C:\Users\f\Desktop\rojina\madar Manteghi\Smart Home Management System\Module05\LightDance.v" into library work
+Parsing module <LightDance>.
+
+=========================================================================
+*                            HDL Elaboration                            *
+=========================================================================
+
+Elaborating module <LightDance>.
+
+Elaborating module <mux2to1>.
+
+Elaborating module <DFlop>.
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Synthesizing Unit <LightDance>.
+    Related source file is "C:\Users\f\Desktop\rojina\madar Manteghi\Smart Home Management System\Module05\LightDance.v".
+    Summary:
+Unit <LightDance> synthesized.
+
+Synthesizing Unit <mux2to1>.
+    Related source file is "C:\Users\f\Desktop\rojina\madar Manteghi\Smart Home Management System\Module05\LightDanceUtils.v".
+    Summary:
+	inferred   1 Multiplexer(s).
+Unit <mux2to1> synthesized.
+
+Synthesizing Unit <DFlop>.
+    Related source file is "C:\Users\f\Desktop\rojina\madar Manteghi\Smart Home Management System\Module05\DFlop.v".
+    Found 1-bit register for signal <rg>.
+    Summary:
+	inferred   1 D-type flip-flop(s).
+Unit <DFlop> synthesized.
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# Registers                                            : 8
+ 1-bit register                                        : 8
+# Multiplexers                                         : 8
+ 1-bit 2-to-1 multiplexer                              : 8
+# Xors                                                 : 5
+ 1-bit xor2                                            : 5
+
+=========================================================================
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+
+=========================================================================
+Advanced HDL Synthesis Report
+
+Macro Statistics
+# Registers                                            : 8
+ Flip-Flops                                            : 8
+# Multiplexers                                         : 8
+ 1-bit 2-to-1 multiplexer                              : 8
+# Xors                                                 : 5
+ 1-bit xor2                                            : 5
+
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+
+Optimizing unit <LightDance> ...
+
+Mapping all equations...
+Building and optimizing final netlist ...
+Found area constraint ratio of 100 (+ 5) on block LightDance, actual ratio is 0.
+
+Final Macro Processing ...
+
+=========================================================================
+Final Register Report
+
+Macro Statistics
+# Registers                                            : 8
+ Flip-Flops                                            : 8
+
+=========================================================================
+
+=========================================================================
+*                           Partition Report                            *
+=========================================================================
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+=========================================================================
+*                            Design Summary                             *
+=========================================================================
+
+Top Level Output File Name         : LightDance.ngc
+
+Primitive and Black Box Usage:
+------------------------------
+# BELS                             : 8
+#      LUT3                        : 3
+#      LUT4                        : 5
+# FlipFlops/Latches                : 8
+#      FDC                         : 8
+# Clock Buffers                    : 1
+#      BUFGP                       : 1
+# IO Buffers                       : 19
+#      IBUF                        : 11
+#      OBUF                        : 8
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 6slx4tqg144-3 
+
+
+Slice Logic Utilization: 
+ Number of Slice Registers:               8  out of   4800     0%  
+ Number of Slice LUTs:                    8  out of   2400     0%  
+    Number used as Logic:                 8  out of   2400     0%  
+
+Slice Logic Distribution: 
+ Number of LUT Flip Flop pairs used:     16
+   Number with an unused Flip Flop:       8  out of     16    50%  
+   Number with an unused LUT:             8  out of     16    50%  
+   Number of fully used LUT-FF pairs:     0  out of     16     0%  
+   Number of unique control sets:         1
+
+IO Utilization: 
+ Number of IOs:                          20
+ Number of bonded IOBs:                  20  out of    102    19%  
+
+Specific Feature Utilization:
+ Number of BUFG/BUFGCTRLs:                1  out of     16     6%  
+
+---------------------------
+Partition Resource Summary:
+---------------------------
+
+  No Partitions were found in this design.
+
+---------------------------
+
+
+=========================================================================
+Timing Report
+
+NOTE: THESE TIMING NUMBERS ARE ONLY A SYNTHESIS ESTIMATE.
+      FOR ACCURATE TIMING INFORMATION PLEASE REFER TO THE TRACE REPORT
+      GENERATED AFTER PLACE-and-ROUTE.
+
+Clock Information:
+------------------
+-----------------------------------+------------------------+-------+
+Clock Signal                       | Clock buffer(FF name)  | Load  |
+-----------------------------------+------------------------+-------+
+clk                                | BUFGP                  | 8     |
+-----------------------------------+------------------------+-------+
+
+Asynchronous Control Signals Information:
+----------------------------------------
+No asynchronous control signals found in this design
+
+Timing Summary:
+---------------
+Speed Grade: -3
+
+   Minimum period: 1.499ns (Maximum Frequency: 667.223MHz)
+   Minimum input arrival time before clock: 2.560ns
+   Maximum output required time after clock: 3.762ns
+   Maximum combinational path delay: No path found
+
+Timing Details:
+---------------
+All values displayed in nanoseconds (ns)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'clk'
+  Clock period: 1.499ns (frequency: 667.223MHz)
+  Total number of paths / destination ports: 12 / 8
+-------------------------------------------------------------------------
+Delay:               1.499ns (Levels of Logic = 1)
+  Source:            dff0/rg (FF)
+  Destination:       dff0/rg (FF)
+  Source Clock:      clk rising
+  Destination Clock: clk rising
+
+  Data Path: dff0/rg to dff0/rg
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDC:C->Q              6   0.447   0.745  dff0/rg (dff0/rg)
+     LUT4:I3->O            1   0.205   0.000  mux1/Mmux_o11 (w_regin<1>)
+     FDC:D                     0.102          dff1/rg
+    ----------------------------------------
+    Total                      1.499ns (0.754ns logic, 0.745ns route)
+                                       (50.3% logic, 49.7% route)
+
+=========================================================================
+Timing constraint: Default OFFSET IN BEFORE for Clock 'clk'
+  Total number of paths / destination ports: 25 / 16
+-------------------------------------------------------------------------
+Offset:              2.560ns (Levels of Logic = 2)
+  Source:            load (PAD)
+  Destination:       dff0/rg (FF)
+  Destination Clock: clk rising
+
+  Data Path: load to dff0/rg
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O             8   1.222   1.031  load_IBUF (load_IBUF)
+     LUT4:I1->O            1   0.205   0.000  mux1/Mmux_o11 (w_regin<1>)
+     FDC:D                     0.102          dff1/rg
+    ----------------------------------------
+    Total                      2.560ns (1.529ns logic, 1.031ns route)
+                                       (59.7% logic, 40.3% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'clk'
+  Total number of paths / destination ports: 8 / 8
+-------------------------------------------------------------------------
+Offset:              3.762ns (Levels of Logic = 1)
+  Source:            dff0/rg (FF)
+  Destination:       qdata<0> (PAD)
+  Source Clock:      clk rising
+
+  Data Path: dff0/rg to qdata<0>
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDC:C->Q              6   0.447   0.744  dff0/rg (dff0/rg)
+     OBUF:I->O                 2.571          qdata_0_OBUF (qdata<0>)
+    ----------------------------------------
+    Total                      3.762ns (3.018ns logic, 0.744ns route)
+                                       (80.2% logic, 19.8% route)
+
+=========================================================================
+
+Cross Clock Domains Report:
+--------------------------
+
+Clock to Setup on destination clock clk
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+clk            |    1.499|         |         |         |
+---------------+---------+---------+---------+---------+
+
+=========================================================================
+
+
+Total REAL time to Xst completion: 9.00 secs
+Total CPU time to Xst completion: 9.16 secs
+ 
+--> 
+
+Total memory usage is 4485720 kilobytes
+
+Number of errors   :    0 (   0 filtered)
+Number of warnings :    0 (   0 filtered)
+Number of infos    :    0 (   0 filtered)
+

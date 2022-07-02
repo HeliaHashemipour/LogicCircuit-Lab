@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="C:/Users/f/Desktop/rojina/madar Manteghi/p5/project5/encoder4x2_isim_beh2.wdb" id="1" type="auto">
+         <top_modules>
+            <top_module name="encoder4x2" />
+            <top_module name="glbl" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <WVObjectSize size="6" />
+   <wvobject fp_name="/encoder4x2/D" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">D[0:3]</obj_property>
+      <obj_property name="ObjectShortName">D[0:3]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/encoder4x2/a" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">a</obj_property>
+      <obj_property name="ObjectShortName">a</obj_property>
+   </wvobject>
+   <wvobject fp_name="/encoder4x2/b" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">b</obj_property>
+      <obj_property name="ObjectShortName">b</obj_property>
+   </wvobject>
+   <wvobject fp_name="/encoder4x2/v" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">v</obj_property>
+      <obj_property name="ObjectShortName">v</obj_property>
+   </wvobject>
+   <wvobject fp_name="/encoder4x2/D2not" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">D2not</obj_property>
+      <obj_property name="ObjectShortName">D2not</obj_property>
+   </wvobject>
+   <wvobject fp_name="/encoder4x2/f1" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">f1</obj_property>
+      <obj_property name="ObjectShortName">f1</obj_property>
+   </wvobject>
+</wave_config>

@@ -1,0 +1,6 @@
+verilog isim_temp "WindowShadeDegree.v"
+verilog isim_temp "LampState.v"
+verilog isim_temp "ActiveLamps.v"
+verilog isim_temp "LightingSystem.v"
+verilog isim_temp "LightingSystem_tb.v"
+verilog isim_temp "C:/Xilinx/14.7/ISE_DS/ISE//verilog/src/glbl.v"

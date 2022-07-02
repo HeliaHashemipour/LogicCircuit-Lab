@@ -1,0 +1,14 @@
+Release 14.7 Map P.20131013 (nt64)
+Xilinx Mapping Report File for Design 'adder_subtractor_4bit'
+
+Design Information
+------------------
+Command Line   : map -intstyle ise -p xc7z010-clg400-1 -w -logic_opt off -ol
+high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off
+-power off -o adder_subtractor_4bit_map.ncd adder_subtractor_4bit.ngd
+adder_subtractor_4bit.pcf 
+Target Device  : xc7z010
+Target Package : clg400
+Target Speed   : -1
+Mapper Version : zynq -- $Revision: 1.55 $
+Mapped Date    : Sun Dec 06 10:24:06 2020

@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -lib "simprims_ver" -lib "unisims_ver" -lib "unimacro_ver" -lib "xilinxcorelib_ver" -lib "secureip" -o "C:/Users/f/Desktop/rojina/madar Manteghi/p5/project5/tb_function4x1_isim_translate.exe" -prj "C:/Users/f/Desktop/rojina/madar Manteghi/p5/project5/tb_function4x1_translate.prj" "work.tb_function4x1" "work.glbl" 

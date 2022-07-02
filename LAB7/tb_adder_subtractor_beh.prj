@@ -1,0 +1,8 @@
+verilog work "full_adder_delay.v"
+verilog work "full_adder.v"
+verilog work "add_sub_delay.v"
+verilog work "add_sub.v"
+verilog work "add_subtractor_4bit.v"
+verilog work "adder_subtractor_4bit.v"
+verilog work "tb_adder_subtractor.v"
+verilog work "C:/Xilinx/14.7/ISE_DS/ISE//verilog/src/glbl.v"

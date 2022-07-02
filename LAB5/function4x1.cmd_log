@@ -1,0 +1,15 @@
+xst -intstyle ise -ifn "C:/Users/f/Desktop/rojina/madar Manteghi/p5/project5/function4x1.xst" -ofn "C:/Users/f/Desktop/rojina/madar Manteghi/p5/project5/function4x1.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc7z010-clg400-1 "function4x1.ngc" function4x1.ngd  
+netgen -intstyle ise -insert_glbl true -w -dir netgen/translate -ofmt verilog -sim function4x1.ngd function4x1_translate.v 
+xst -intstyle ise -ifn "C:/Users/f/Desktop/rojina/madar Manteghi/p5/project5/function4x1.xst" -ofn "C:/Users/f/Desktop/rojina/madar Manteghi/p5/project5/function4x1.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc7z010-clg400-1 "function4x1.ngc" function4x1.ngd  
+netgen -intstyle ise -insert_glbl true -w -dir netgen/translate -ofmt verilog -sim function4x1.ngd function4x1_translate.v 
+xst -intstyle ise -ifn "C:/Users/f/Desktop/rojina/madar Manteghi/p5/project5/function4x1.xst" -ofn "C:/Users/f/Desktop/rojina/madar Manteghi/p5/project5/function4x1.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc7z010-clg400-1 "function4x1.ngc" function4x1.ngd  
+netgen -intstyle ise -insert_glbl true -w -dir netgen/translate -ofmt verilog -sim function4x1.ngd function4x1_translate.v 
+xst -intstyle ise -ifn "C:/Users/f/Desktop/rojina/madar Manteghi/p5/project5/function4x1.xst" -ofn "C:/Users/f/Desktop/rojina/madar Manteghi/p5/project5/function4x1.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc7z010-clg400-1 "function4x1.ngc" function4x1.ngd  
+netgen -intstyle ise -insert_glbl true -w -dir netgen/translate -ofmt verilog -sim function4x1.ngd function4x1_translate.v 
+xst -intstyle ise -ifn "C:/Users/f/Desktop/rojina/madar Manteghi/p5/project5/function4x1.xst" -ofn "C:/Users/f/Desktop/rojina/madar Manteghi/p5/project5/function4x1.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc7z010-clg400-1 "function4x1.ngc" function4x1.ngd  
+netgen -intstyle ise -insert_glbl true -w -dir netgen/translate -ofmt verilog -sim function4x1.ngd function4x1_translate.v 

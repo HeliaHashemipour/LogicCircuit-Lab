@@ -1,0 +1,2 @@
+verilog work "netgen/translate/function4x1_translate.v"
+verilog work "tb_function4x1.v"

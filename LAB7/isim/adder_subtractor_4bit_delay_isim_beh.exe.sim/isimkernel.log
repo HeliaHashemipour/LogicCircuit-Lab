@@ -1,0 +1,28 @@
+Command line:
+   adder_subtractor_4bit_delay_isim_beh.exe
+     -simmode  gui
+     -simrunnum  1
+     -socket  65205
+
+Sun Dec 06 10:37:53 2020
+
+
+ Elaboration Time: 0.09375 sec
+
+ Current Memory Usage: 5154.28 Meg
+
+ Total Signals          : 79
+ Total Nets             : 46
+ Total Signal Drivers   : 29
+ Total Blocks           : 10
+ Total Primitive Blocks : 5
+ Total Processes        : 30
+ Total Traceable Variables  : 18
+ Total Scalar Nets and Variables : 126
+
+ Total Simulation Time: 0.09375 sec
+
+ Current Memory Usage: 5154.28 Meg
+
+Sun Dec 06 10:37:58 2020
+

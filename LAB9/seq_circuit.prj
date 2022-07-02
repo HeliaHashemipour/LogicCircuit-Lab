@@ -1,0 +1,2 @@
+verilog work "dflop_negedge.v"
+verilog work "seq_circuit.v"

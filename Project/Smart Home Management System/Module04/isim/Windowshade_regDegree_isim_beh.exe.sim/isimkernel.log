@@ -1,0 +1,28 @@
+Command line:
+   Windowshade_regDegree_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  3542
+
+Wed Jan 27 23:10:37 2021
+
+
+ Elaboration Time: 0.967206 sec
+
+ Current Memory Usage: 680.1 Meg
+
+ Total Signals          : 16
+ Total Nets             : 25
+ Total Signal Drivers   : 6
+ Total Blocks           : 2
+ Total Primitive Blocks : 2
+ Total Processes        : 8
+ Total Traceable Variables  : 19
+ Total Scalar Nets and Variables : 109
+
+ Total Simulation Time: 0.967206 sec
+
+ Current Memory Usage: 680.1 Meg
+
+Wed Jan 27 23:10:40 2021
+

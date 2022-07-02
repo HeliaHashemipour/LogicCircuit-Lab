@@ -1,0 +1,444 @@
+Release 14.7 - xst P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.30 secs
+ 
+--> Parameter xsthdpdir set to xst
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.31 secs
+ 
+--> Reading design: CoolHeatSystem.prj
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Parsing
+  3) HDL Elaboration
+  4) HDL Synthesis
+       4.1) HDL Synthesis Report
+  5) Advanced HDL Synthesis
+       5.1) Advanced HDL Synthesis Report
+  6) Low Level Synthesis
+  7) Partition Report
+  8) Design Summary
+       8.1) Primitive and Black Box Usage
+       8.2) Device utilization summary
+       8.3) Partition Resource Summary
+       8.4) Timing Report
+            8.4.1) Clock Information
+            8.4.2) Asynchronous Control Signals Information
+            8.4.3) Timing Summary
+            8.4.4) Timing Details
+            8.4.5) Cross Clock Domains Report
+
+
+=========================================================================
+*                      Synthesis Options Summary                        *
+=========================================================================
+---- Source Parameters
+Input File Name                    : "CoolHeatSystem.prj"
+Ignore Synthesis Constraint File   : NO
+
+---- Target Parameters
+Output File Name                   : "CoolHeatSystem"
+Output Format                      : NGC
+Target Device                      : xc6slx4-3-tqg144
+
+---- Source Options
+Top Module Name                    : CoolHeatSystem
+Automatic FSM Extraction           : YES
+FSM Encoding Algorithm             : Auto
+Safe Implementation                : No
+FSM Style                          : LUT
+RAM Extraction                     : Yes
+RAM Style                          : Auto
+ROM Extraction                     : Yes
+Shift Register Extraction          : YES
+ROM Style                          : Auto
+Resource Sharing                   : YES
+Asynchronous To Synchronous        : NO
+Shift Register Minimum Size        : 2
+Use DSP Block                      : Auto
+Automatic Register Balancing       : No
+
+---- Target Options
+LUT Combining                      : Auto
+Reduce Control Sets                : Auto
+Add IO Buffers                     : YES
+Global Maximum Fanout              : 100000
+Add Generic Clock Buffer(BUFG)     : 16
+Register Duplication               : YES
+Optimize Instantiated Primitives   : NO
+Use Clock Enable                   : Auto
+Use Synchronous Set                : Auto
+Use Synchronous Reset              : Auto
+Pack IO Registers into IOBs        : Auto
+Equivalent register Removal        : YES
+
+---- General Options
+Optimization Goal                  : Speed
+Optimization Effort                : 1
+Power Reduction                    : NO
+Keep Hierarchy                     : No
+Netlist Hierarchy                  : As_Optimized
+RTL Output                         : Yes
+Global Optimization                : AllClockNets
+Read Cores                         : YES
+Write Timing Constraints           : NO
+Cross Clock Analysis               : NO
+Hierarchy Separator                : /
+Bus Delimiter                      : <>
+Case Specifier                     : Maintain
+Slice Utilization Ratio            : 100
+BRAM Utilization Ratio             : 100
+DSP48 Utilization Ratio            : 100
+Auto BRAM Packing                  : NO
+Slice Utilization Ratio Delta      : 5
+
+=========================================================================
+
+
+=========================================================================
+*                          HDL Parsing                                  *
+=========================================================================
+Analyzing Verilog file "C:\Users\f\Desktop\rojina\madar Manteghi\Smart Home Management System\Module03\ModePower.v" into library work
+Parsing module <ModePower>.
+Analyzing Verilog file "C:\Users\f\Desktop\rojina\madar Manteghi\Smart Home Management System\Module03\FanSpeed.v" into library work
+Parsing module <FanSpeed>.
+Analyzing Verilog file "C:\Users\f\Desktop\rojina\madar Manteghi\Smart Home Management System\Module03\CoolHeatSystem.v" into library work
+Parsing module <CoolHeatSystem>.
+
+=========================================================================
+*                            HDL Elaboration                            *
+=========================================================================
+
+Elaborating module <CoolHeatSystem>.
+
+Elaborating module <ModePower>.
+
+Elaborating module <FanSpeed>.
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Synthesizing Unit <CoolHeatSystem>.
+    Related source file is "C:\Users\f\Desktop\rojina\madar Manteghi\Smart Home Management System\Module03\CoolHeatSystem.v".
+    Summary:
+	no macro.
+Unit <CoolHeatSystem> synthesized.
+
+Synthesizing Unit <ModePower>.
+    Related source file is "C:\Users\f\Desktop\rojina\madar Manteghi\Smart Home Management System\Module03\ModePower.v".
+    Found 4-bit adder for signal <GND_2_o_GND_2_o_add_4_OUT> created at line 42.
+    Found 4-bit adder for signal <GND_2_o_GND_2_o_add_7_OUT> created at line 42.
+    Found 4-bit adder for signal <GND_2_o_GND_2_o_add_10_OUT> created at line 42.
+    Found 4-bit adder for signal <GND_2_o_GND_2_o_add_13_OUT> created at line 42.
+    Found 4-bit adder for signal <GND_2_o_GND_2_o_add_16_OUT> created at line 42.
+    Found 4-bit adder for signal <GND_2_o_GND_2_o_add_19_OUT> created at line 42.
+    Found 4-bit adder for signal <GND_2_o_GND_2_o_add_22_OUT> created at line 42.
+    Summary:
+	inferred   7 Adder/Subtractor(s).
+	inferred   7 Multiplexer(s).
+Unit <ModePower> synthesized.
+
+Synthesizing Unit <FanSpeed>.
+    Related source file is "C:\Users\f\Desktop\rojina\madar Manteghi\Smart Home Management System\Module03\FanSpeed.v".
+    Found 1-bit register for signal <pwm_data_reg>.
+    Found 8-bit register for signal <counter>.
+    Found 8-bit adder for signal <counter[7]_GND_3_o_add_2_OUT> created at line 54.
+    Found 8-bit comparator greater for signal <counter[7]_cycles[7]_LessThan_4_o> created at line 55
+    Summary:
+	inferred   1 Adder/Subtractor(s).
+	inferred   9 D-type flip-flop(s).
+	inferred   1 Comparator(s).
+Unit <FanSpeed> synthesized.
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# Adders/Subtractors                                   : 8
+ 4-bit adder                                           : 7
+ 8-bit adder                                           : 1
+# Registers                                            : 2
+ 1-bit register                                        : 1
+ 8-bit register                                        : 1
+# Comparators                                          : 1
+ 8-bit comparator greater                              : 1
+# Multiplexers                                         : 7
+ 4-bit 2-to-1 multiplexer                              : 7
+
+=========================================================================
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+
+Synthesizing (advanced) Unit <FanSpeed>.
+The following registers are absorbed into counter <counter>: 1 register on signal <counter>.
+Unit <FanSpeed> synthesized (advanced).
+
+=========================================================================
+Advanced HDL Synthesis Report
+
+Macro Statistics
+# Adders/Subtractors                                   : 8
+ 4-bit adder                                           : 7
+ 8-bit adder                                           : 1
+# Counters                                             : 1
+ 8-bit up counter                                      : 1
+# Registers                                            : 1
+ Flip-Flops                                            : 1
+# Comparators                                          : 1
+ 8-bit comparator greater                              : 1
+# Multiplexers                                         : 7
+ 4-bit 2-to-1 multiplexer                              : 7
+
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+
+Optimizing unit <CoolHeatSystem> ...
+
+Optimizing unit <ModePower> ...
+
+Mapping all equations...
+Building and optimizing final netlist ...
+Found area constraint ratio of 100 (+ 5) on block CoolHeatSystem, actual ratio is 1.
+
+Final Macro Processing ...
+
+=========================================================================
+Final Register Report
+
+Macro Statistics
+# Registers                                            : 9
+ Flip-Flops                                            : 9
+
+=========================================================================
+
+=========================================================================
+*                           Partition Report                            *
+=========================================================================
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+=========================================================================
+*                            Design Summary                             *
+=========================================================================
+
+Top Level Output File Name         : CoolHeatSystem.ngc
+
+Primitive and Black Box Usage:
+------------------------------
+# BELS                             : 45
+#      GND                         : 1
+#      INV                         : 1
+#      LUT1                        : 7
+#      LUT3                        : 1
+#      LUT4                        : 6
+#      LUT5                        : 4
+#      LUT6                        : 9
+#      MUXCY                       : 7
+#      VCC                         : 1
+#      XORCY                       : 8
+# FlipFlops/Latches                : 9
+#      FDC                         : 9
+# Clock Buffers                    : 1
+#      BUFGP                       : 1
+# IO Buffers                       : 23
+#      IBUF                        : 17
+#      OBUF                        : 6
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 6slx4tqg144-3 
+
+
+Slice Logic Utilization: 
+ Number of Slice Registers:               9  out of   4800     0%  
+ Number of Slice LUTs:                   28  out of   2400     1%  
+    Number used as Logic:                28  out of   2400     1%  
+
+Slice Logic Distribution: 
+ Number of LUT Flip Flop pairs used:     28
+   Number with an unused Flip Flop:      19  out of     28    67%  
+   Number with an unused LUT:             0  out of     28     0%  
+   Number of fully used LUT-FF pairs:     9  out of     28    32%  
+   Number of unique control sets:         1
+
+IO Utilization: 
+ Number of IOs:                          24
+ Number of bonded IOBs:                  24  out of    102    23%  
+
+Specific Feature Utilization:
+ Number of BUFG/BUFGCTRLs:                1  out of     16     6%  
+
+---------------------------
+Partition Resource Summary:
+---------------------------
+
+  No Partitions were found in this design.
+
+---------------------------
+
+
+=========================================================================
+Timing Report
+
+NOTE: THESE TIMING NUMBERS ARE ONLY A SYNTHESIS ESTIMATE.
+      FOR ACCURATE TIMING INFORMATION PLEASE REFER TO THE TRACE REPORT
+      GENERATED AFTER PLACE-and-ROUTE.
+
+Clock Information:
+------------------
+-----------------------------------+------------------------+-------+
+Clock Signal                       | Clock buffer(FF name)  | Load  |
+-----------------------------------+------------------------+-------+
+clk                                | BUFGP                  | 9     |
+-----------------------------------+------------------------+-------+
+
+Asynchronous Control Signals Information:
+----------------------------------------
+No asynchronous control signals found in this design
+
+Timing Summary:
+---------------
+Speed Grade: -3
+
+   Minimum period: 3.672ns (Maximum Frequency: 272.305MHz)
+   Minimum input arrival time before clock: 4.286ns
+   Maximum output required time after clock: 3.597ns
+   Maximum combinational path delay: 7.791ns
+
+Timing Details:
+---------------
+All values displayed in nanoseconds (ns)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'clk'
+  Clock period: 3.672ns (frequency: 272.305MHz)
+  Total number of paths / destination ports: 84 / 9
+-------------------------------------------------------------------------
+Delay:               3.672ns (Levels of Logic = 3)
+  Source:            FanSpeed/counter_3 (FF)
+  Destination:       FanSpeed/pwm_data_reg (FF)
+  Source Clock:      clk rising
+  Destination Clock: clk rising
+
+  Data Path: FanSpeed/counter_3 to FanSpeed/pwm_data_reg
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDC:C->Q              7   0.447   1.021  FanSpeed/counter_3 (FanSpeed/counter_3)
+     LUT4:I0->O            1   0.203   0.808  FanSpeed/Madd_counter[7]_GND_3_o_add_2_OUT_xor<3>11 (FanSpeed/counter[7]_GND_3_o_add_2_OUT<3>)
+     LUT6:I3->O            1   0.205   0.684  FanSpeed/counter[7]_cycles[7]_LessThan_4_o21 (FanSpeed/counter[7]_cycles[7]_LessThan_4_o2)
+     LUT6:I4->O            1   0.203   0.000  FanSpeed/counter[7]_cycles[7]_LessThan_4_o25 (FanSpeed/counter[7]_cycles[7]_LessThan_4_o)
+     FDC:D                     0.102          FanSpeed/pwm_data_reg
+    ----------------------------------------
+    Total                      3.672ns (1.160ns logic, 2.512ns route)
+                                       (31.6% logic, 68.4% route)
+
+=========================================================================
+Timing constraint: Default OFFSET IN BEFORE for Clock 'clk'
+  Total number of paths / destination ports: 20 / 10
+-------------------------------------------------------------------------
+Offset:              4.286ns (Levels of Logic = 4)
+  Source:            speed<2> (PAD)
+  Destination:       FanSpeed/pwm_data_reg (FF)
+  Destination Clock: clk rising
+
+  Data Path: speed<2> to FanSpeed/pwm_data_reg
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O             1   1.222   0.944  speed_2_IBUF (speed_2_IBUF)
+     LUT6:I0->O            1   0.203   0.827  FanSpeed/counter[7]_cycles[7]_LessThan_4_o22 (FanSpeed/counter[7]_cycles[7]_LessThan_4_o21)
+     LUT6:I2->O            1   0.203   0.580  FanSpeed/counter[7]_cycles[7]_LessThan_4_o24 (FanSpeed/counter[7]_cycles[7]_LessThan_4_o23)
+     LUT6:I5->O            1   0.205   0.000  FanSpeed/counter[7]_cycles[7]_LessThan_4_o25 (FanSpeed/counter[7]_cycles[7]_LessThan_4_o)
+     FDC:D                     0.102          FanSpeed/pwm_data_reg
+    ----------------------------------------
+    Total                      4.286ns (1.935ns logic, 2.351ns route)
+                                       (45.2% logic, 54.8% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'clk'
+  Total number of paths / destination ports: 1 / 1
+-------------------------------------------------------------------------
+Offset:              3.597ns (Levels of Logic = 1)
+  Source:            FanSpeed/pwm_data_reg (FF)
+  Destination:       pwm_data (PAD)
+  Source Clock:      clk rising
+
+  Data Path: FanSpeed/pwm_data_reg to pwm_data
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDC:C->Q              1   0.447   0.579  FanSpeed/pwm_data_reg (FanSpeed/pwm_data_reg)
+     OBUF:I->O                 2.571          pwm_data_OBUF (pwm_data)
+    ----------------------------------------
+    Total                      3.597ns (3.018ns logic, 0.579ns route)
+                                       (83.9% logic, 16.1% route)
+
+=========================================================================
+Timing constraint: Default path analysis
+  Total number of paths / destination ports: 86 / 5
+-------------------------------------------------------------------------
+Delay:               7.791ns (Levels of Logic = 5)
+  Source:            chs_conf<1> (PAD)
+  Destination:       chs_power<3> (PAD)
+
+  Data Path: chs_conf<1> to chs_power<3>
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O             3   1.222   0.898  chs_conf_1_IBUF (chs_conf_1_IBUF)
+     LUT4:I0->O            4   0.203   1.048  ModePower/Mmux_n0059211 (ModePower/Mmux_n005921)
+     LUT6:I0->O            2   0.203   0.864  ModePower/Mmux_count4121 (ModePower/Mmux_count412)
+     LUT4:I0->O            1   0.203   0.579  ModePower/Mmux_count41 (chs_power_3_OBUF)
+     OBUF:I->O                 2.571          chs_power_3_OBUF (chs_power<3>)
+    ----------------------------------------
+    Total                      7.791ns (4.402ns logic, 3.389ns route)
+                                       (56.5% logic, 43.5% route)
+
+=========================================================================
+
+Cross Clock Domains Report:
+--------------------------
+
+Clock to Setup on destination clock clk
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+clk            |    3.672|         |         |         |
+---------------+---------+---------+---------+---------+
+
+=========================================================================
+
+
+Total REAL time to Xst completion: 11.00 secs
+Total CPU time to Xst completion: 10.77 secs
+ 
+--> 
+
+Total memory usage is 4485720 kilobytes
+
+Number of errors   :    0 (   0 filtered)
+Number of warnings :    0 (   0 filtered)
+Number of infos    :    0 (   0 filtered)
+

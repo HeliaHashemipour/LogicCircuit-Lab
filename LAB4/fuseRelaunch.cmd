@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -lib "unisims_ver" -lib "unimacro_ver" -lib "xilinxcorelib_ver" -lib "secureip" -o "C:/Users/f/Desktop/rojina/madar Manteghi/p4/project4/testbechsop_isim_beh.exe" -prj "C:/Users/f/Desktop/rojina/madar Manteghi/p4/project4/testbechsop_beh.prj" "work.testbechsop" "work.glbl" 

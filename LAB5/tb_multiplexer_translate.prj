@@ -1,0 +1,2 @@
+verilog work "netgen/translate/multiplexer4x1_translate.v"
+verilog work "tb_multiplexer4x1.v"

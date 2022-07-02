@@ -1,0 +1,18 @@
+xst -intstyle ise -ifn "C:/Users/f/Desktop/rojina/madar Manteghi/p9/project9/seq_circuit.xst" -ofn "C:/Users/f/Desktop/rojina/madar Manteghi/p9/project9/seq_circuit.syr" 
+xst -intstyle ise -ifn "C:/Users/f/Desktop/rojina/madar Manteghi/p9/project9/seq_circuit.xst" -ofn "C:/Users/f/Desktop/rojina/madar Manteghi/p9/project9/seq_circuit.syr" 
+xst -intstyle ise -ifn "C:/Users/f/Desktop/rojina/madar Manteghi/p9/project9/seq_circuit.xst" -ofn "C:/Users/f/Desktop/rojina/madar Manteghi/p9/project9/seq_circuit.syr" 
+xst -intstyle ise -ifn "C:/Users/f/Desktop/rojina/madar Manteghi/p9/project9/seq_circuit.xst" -ofn "C:/Users/f/Desktop/rojina/madar Manteghi/p9/project9/seq_circuit.syr" 
+xst -intstyle ise -ifn "C:/Users/f/Desktop/rojina/madar Manteghi/p9/project9/seq_circuit.xst" -ofn "C:/Users/f/Desktop/rojina/madar Manteghi/p9/project9/seq_circuit.syr" 
+xst -intstyle ise -ifn "C:/Users/f/Desktop/rojina/madar Manteghi/p9/project9/seq_circuit.xst" -ofn "C:/Users/f/Desktop/rojina/madar Manteghi/p9/project9/seq_circuit.syr" 
+xst -intstyle ise -ifn "C:/Users/f/Desktop/rojina/madar Manteghi/p9/project9/seq_circuit.xst" -ofn "C:/Users/f/Desktop/rojina/madar Manteghi/p9/project9/seq_circuit.syr" 
+xst -intstyle ise -ifn "C:/Users/f/Desktop/rojina/madar Manteghi/p9/project9/seq_circuit.xst" -ofn "C:/Users/f/Desktop/rojina/madar Manteghi/p9/project9/seq_circuit.syr" 
+xst -intstyle ise -ifn "C:/Users/f/Desktop/rojina/madar Manteghi/p9/project9/seq_circuit.xst" -ofn "C:/Users/f/Desktop/rojina/madar Manteghi/p9/project9/seq_circuit.syr" 
+xst -intstyle ise -ifn "C:/Users/f/Desktop/rojina/madar Manteghi/p9/project9/seq_circuit.xst" -ofn "C:/Users/f/Desktop/rojina/madar Manteghi/p9/project9/seq_circuit.syr" 
+xst -intstyle ise -ifn "C:/Users/f/Desktop/rojina/madar Manteghi/p9/project9/seq_circuit.xst" -ofn "C:/Users/f/Desktop/rojina/madar Manteghi/p9/project9/seq_circuit.syr" 
+xst -intstyle ise -ifn "C:/Users/f/Desktop/rojina/madar Manteghi/p9/project9/seq_circuit.xst" -ofn "C:/Users/f/Desktop/rojina/madar Manteghi/p9/project9/seq_circuit.syr" 
+xst -intstyle ise -ifn "C:/Users/f/Desktop/rojina/madar Manteghi/p9/project9/seq_circuit.xst" -ofn "C:/Users/f/Desktop/rojina/madar Manteghi/p9/project9/seq_circuit.syr" 
+xst -intstyle ise -ifn "C:/Users/f/Desktop/rojina/madar Manteghi/p9/project9/seq_circuit.xst" -ofn "C:/Users/f/Desktop/rojina/madar Manteghi/p9/project9/seq_circuit.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc7z010-clg400-1 "seq_circuit.ngc" seq_circuit.ngd  
+map -intstyle ise -p xc7z010-clg400-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o seq_circuit_map.ncd seq_circuit.ngd seq_circuit.pcf 
+xst -intstyle ise -ifn "C:/Users/f/Desktop/rojina/madar Manteghi/p9/project9/seq_circuit.xst" -ofn "C:/Users/f/Desktop/rojina/madar Manteghi/p9/project9/seq_circuit.syr" 
+xst -intstyle ise -ifn "C:/Users/f/Desktop/rojina/madar Manteghi/p9/project9/seq_circuit.xst" -ofn "C:/Users/f/Desktop/rojina/madar Manteghi/p9/project9/seq_circuit.syr" 

@@ -1,0 +1,4 @@
+verilog work "WindowShadeDegree.v"
+verilog work "LampState.v"
+verilog work "ActiveLamps.v"
+verilog work "LightingSystem.v"

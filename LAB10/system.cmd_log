@@ -1,0 +1,3 @@
+xst -intstyle ise -ifn "C:/Users/f/Desktop/rojina/madar Manteghi/project10/p10/system.xst" -ofn "C:/Users/f/Desktop/rojina/madar Manteghi/project10/p10/system.syr" 
+xst -intstyle ise -ifn "C:/Users/f/Desktop/rojina/madar Manteghi/project10/p10/system.xst" -ofn "C:/Users/f/Desktop/rojina/madar Manteghi/project10/p10/system.syr" 
+xst -intstyle ise -ifn "C:/Users/f/Desktop/rojina/madar Manteghi/project10/p10/system.xst" -ofn "C:/Users/f/Desktop/rojina/madar Manteghi/project10/p10/system.syr" 

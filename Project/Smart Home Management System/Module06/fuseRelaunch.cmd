@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -lib "unisims_ver" -lib "unimacro_ver" -lib "xilinxcorelib_ver" -lib "secureip" -o "G:/prgs/prjs/tamrin/nikta/Module06/MemoryUnit_isim_beh.exe" -prj "G:/prgs/prjs/tamrin/nikta/Module06/MemoryUnit_beh.prj" "work.MemoryUnit" "work.glbl" 

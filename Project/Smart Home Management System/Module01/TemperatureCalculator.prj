@@ -1,0 +1,4 @@
+verilog work "Multiplier8x8.v"
+verilog work "Multiplier16x16.v"
+verilog work "AdderSubtractor32bit.v"
+verilog work "TemperatureCalculator.v"

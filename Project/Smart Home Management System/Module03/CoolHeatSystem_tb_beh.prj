@@ -1,0 +1,5 @@
+verilog work "ModePower.v"
+verilog work "FanSpeed.v"
+verilog work "CoolHeatSystem.v"
+verilog work "CoolHeatSystem_tb.v"
+verilog work "C:/Xilinx/14.7/ISE_DS/ISE//verilog/src/glbl.v"

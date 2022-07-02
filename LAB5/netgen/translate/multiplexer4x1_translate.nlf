@@ -1,0 +1,19 @@
+Release 14.7 - netgen P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+
+Command Line: netgen -intstyle ise -insert_glbl true -w -dir netgen/translate
+-ofmt verilog -sim multiplexer4x1.ngd multiplexer4x1_translate.v  
+
+Reading design 'multiplexer4x1.ngd' ...
+Flattening design ...
+Processing design ... 
+  Preping design's networks ...
+  Preping design's macros ...
+Writing Verilog netlist file 'C:\Users\f\Desktop\rojina\madar
+Manteghi\p5\project5\netgen\translate\multiplexer4x1_translate.v' ...
+INFO:NetListWriters:633 - The generated Verilog netlist contains Xilinx SIMPRIM
+   simulation primitives and has to be used with SIMPRIM simulation library for
+   correct compilation and simulation. 
+Number of warnings: 0
+Number of info messages: 1
+Total memory usage is 4410956 kilobytes

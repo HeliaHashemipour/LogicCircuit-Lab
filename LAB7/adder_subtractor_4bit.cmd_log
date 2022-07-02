@@ -1,0 +1,7 @@
+xst -intstyle ise -ifn "C:/Users/f/Desktop/rojina/madar Manteghi/p7/project7/adder_subtractor_4bit.xst" -ofn "C:/Users/f/Desktop/rojina/madar Manteghi/p7/project7/adder_subtractor_4bit.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc7z010-clg400-1 "adder_subtractor_4bit.ngc" adder_subtractor_4bit.ngd  
+map -intstyle ise -p xc7z010-clg400-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o adder_subtractor_4bit_map.ncd adder_subtractor_4bit.ngd adder_subtractor_4bit.pcf 
+xst -intstyle ise -ifn "C:/Users/f/Desktop/rojina/madar Manteghi/p7/project7/adder_subtractor_4bit.xst" -ofn "C:/Users/f/Desktop/rojina/madar Manteghi/p7/project7/adder_subtractor_4bit.syr" 
+xst -intstyle ise -ifn "C:/Users/f/Desktop/rojina/madar Manteghi/p7/project7/adder_subtractor_4bit.xst" -ofn "C:/Users/f/Desktop/rojina/madar Manteghi/p7/project7/adder_subtractor_4bit.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc7z010-clg400-1 "adder_subtractor_4bit.ngc" adder_subtractor_4bit.ngd  
+map -intstyle ise -p xc7z010-clg400-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o adder_subtractor_4bit_map.ncd adder_subtractor_4bit.ngd adder_subtractor_4bit.pcf 

@@ -1,0 +1,6 @@
+verilog work "WindowShadeDegree.v"
+verilog work "LampState.v"
+verilog work "ActiveLamps.v"
+verilog work "LightingSystem.v"
+verilog work "LightingSystem_tb.v"
+verilog work "C:/Xilinx/14.7/ISE_DS/ISE//verilog/src/glbl.v"

@@ -1,0 +1,28 @@
+Command line:
+   tb_encoder2x4_isim_translate.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  57353
+
+Sun Nov 15 14:55:37 2020
+
+
+ Elaboration Time: 0.09375 sec
+
+ Current Memory Usage: 5153.75 Meg
+
+ Total Signals          : 101
+ Total Nets             : 58
+ Total Signal Drivers   : 49
+ Total Blocks           : 25
+ Total Primitive Blocks : 20
+ Total Processes        : 49
+ Total Traceable Variables  : 56
+ Total Scalar Nets and Variables : 1867
+
+ Total Simulation Time: 0.125 sec
+
+ Current Memory Usage: 4996.46 Meg
+
+Sun Nov 15 14:58:44 2020
+

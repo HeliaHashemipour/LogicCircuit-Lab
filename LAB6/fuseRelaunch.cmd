@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -lib "unisims_ver" -lib "unimacro_ver" -lib "xilinxcorelib_ver" -lib "secureip" -o "C:/Users/f/Desktop/rojina/madar Manteghi/p6/project6/tb_comparator3_isim_beh.exe" -prj "C:/Users/f/Desktop/rojina/madar Manteghi/p6/project6/tb_comparator3_beh.prj" "work.tb_comparator3" "work.glbl" 

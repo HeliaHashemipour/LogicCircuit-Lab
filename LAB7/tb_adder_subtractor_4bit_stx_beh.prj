@@ -1,0 +1,5 @@
+verilog isim_temp "full_adder.v"
+verilog isim_temp "add_sub.v"
+verilog isim_temp "adder_subtractor_4bit.v"
+verilog isim_temp "tb_adder_subtractor_4bit.v"
+verilog isim_temp "C:/Xilinx/14.7/ISE_DS/ISE//verilog/src/glbl.v"

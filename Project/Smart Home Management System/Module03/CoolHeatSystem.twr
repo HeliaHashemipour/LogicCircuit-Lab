@@ -1,0 +1,124 @@
+--------------------------------------------------------------------------------
+Release 14.7 Trace  (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+
+C:\Xilinx\14.7\ISE_DS\ISE\bin\nt64\unwrapped\trce.exe -intstyle ise -v 3 -s 3
+-n 3 -fastpaths -xml CoolHeatSystem.twx CoolHeatSystem.ncd -o
+CoolHeatSystem.twr CoolHeatSystem.pcf
+
+Design file:              CoolHeatSystem.ncd
+Physical constraint file: CoolHeatSystem.pcf
+Device,package,speed:     xc6slx4,tqg144,C,-3 (PRODUCTION 1.23 2013-10-13)
+Report level:             verbose report
+
+Environment Variable      Effect 
+--------------------      ------ 
+NONE                      No environment variables were set
+--------------------------------------------------------------------------------
+
+INFO:Timing:2698 - No timing constraints found, doing default enumeration.
+INFO:Timing:3412 - To improve timing, see the Timing Closure User Guide (UG612).
+INFO:Timing:2752 - To get complete path coverage, use the unconstrained paths 
+   option. All paths that are not constrained will be reported in the 
+   unconstrained paths section(s) of the report.
+INFO:Timing:3339 - The clock-to-out numbers in this timing report are based on 
+   a 50 Ohm transmission line loading model.  For the details of this model, 
+   and for more information on accounting for different loading conditions, 
+   please see the device datasheet.
+
+
+
+Data Sheet report:
+-----------------
+All values displayed in nanoseconds (ns)
+
+Setup/Hold to clock clk
+------------+------------+------------+------------+------------+------------------+--------+
+            |Max Setup to|  Process   |Max Hold to |  Process   |                  | Clock  |
+Source      | clk (edge) |   Corner   | clk (edge) |   Corner   |Internal Clock(s) | Phase  |
+------------+------------+------------+------------+------------+------------------+--------+
+arst        |    0.714(R)|      SLOW  |    0.422(R)|      SLOW  |clk_BUFGP         |   0.000|
+speed<0>    |    2.533(R)|      SLOW  |   -1.197(R)|      FAST  |clk_BUFGP         |   0.000|
+speed<1>    |    2.453(R)|      SLOW  |   -1.116(R)|      FAST  |clk_BUFGP         |   0.000|
+speed<2>    |    2.768(R)|      SLOW  |   -1.365(R)|      FAST  |clk_BUFGP         |   0.000|
+speed<3>    |    1.958(R)|      SLOW  |   -0.275(R)|      SLOW  |clk_BUFGP         |   0.000|
+speed<4>    |    1.396(R)|      SLOW  |   -0.330(R)|      SLOW  |clk_BUFGP         |   0.000|
+speed<5>    |    2.099(R)|      SLOW  |   -0.759(R)|      FAST  |clk_BUFGP         |   0.000|
+speed<6>    |    1.350(R)|      SLOW  |   -0.401(R)|      SLOW  |clk_BUFGP         |   0.000|
+speed<7>    |    1.640(R)|      SLOW  |   -0.676(R)|      SLOW  |clk_BUFGP         |   0.000|
+------------+------------+------------+------------+------------+------------------+--------+
+
+Clock clk to Pad
+------------+-----------------+------------+-----------------+------------+------------------+--------+
+            |Max (slowest) clk|  Process   |Min (fastest) clk|  Process   |                  | Clock  |
+Destination |  (edge) to PAD  |   Corner   |  (edge) to PAD  |   Corner   |Internal Clock(s) | Phase  |
+------------+-----------------+------------+-----------------+------------+------------------+--------+
+pwm_data    |         6.872(R)|      SLOW  |         3.521(R)|      FAST  |clk_BUFGP         |   0.000|
+------------+-----------------+------------+-----------------+------------+------------------+--------+
+
+Clock to Setup on destination clock clk
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+clk            |    2.639|         |         |         |
+---------------+---------+---------+---------+---------+
+
+Pad to Pad
+---------------+---------------+---------+
+Source Pad     |Destination Pad|  Delay  |
+---------------+---------------+---------+
+chs_conf<0>    |chs_mode       |    7.674|
+chs_conf<0>    |chs_power<0>   |    7.432|
+chs_conf<0>    |chs_power<1>   |    7.597|
+chs_conf<0>    |chs_power<2>   |    8.425|
+chs_conf<0>    |chs_power<3>   |    8.440|
+chs_conf<1>    |chs_mode       |    7.670|
+chs_conf<1>    |chs_power<0>   |    7.428|
+chs_conf<1>    |chs_power<1>   |    7.593|
+chs_conf<1>    |chs_power<2>   |    8.421|
+chs_conf<1>    |chs_power<3>   |    8.436|
+chs_conf<2>    |chs_mode       |    7.914|
+chs_conf<2>    |chs_power<0>   |    7.672|
+chs_conf<2>    |chs_power<1>   |    7.837|
+chs_conf<2>    |chs_power<2>   |    8.665|
+chs_conf<2>    |chs_power<3>   |    8.680|
+chs_conf<3>    |chs_mode       |    7.545|
+chs_conf<3>    |chs_power<0>   |    7.303|
+chs_conf<3>    |chs_power<1>   |    7.468|
+chs_conf<3>    |chs_power<2>   |    8.296|
+chs_conf<3>    |chs_power<3>   |    8.311|
+chs_conf<4>    |chs_mode       |    7.078|
+chs_conf<4>    |chs_power<0>   |    6.836|
+chs_conf<4>    |chs_power<1>   |    6.710|
+chs_conf<4>    |chs_power<2>   |    7.654|
+chs_conf<4>    |chs_power<3>   |    7.669|
+chs_conf<5>    |chs_mode       |    8.009|
+chs_conf<5>    |chs_power<0>   |    7.767|
+chs_conf<5>    |chs_power<1>   |    6.444|
+chs_conf<5>    |chs_power<2>   |    8.279|
+chs_conf<5>    |chs_power<3>   |    8.294|
+chs_conf<6>    |chs_mode       |    7.270|
+chs_conf<6>    |chs_power<0>   |    7.028|
+chs_conf<6>    |chs_power<1>   |    6.270|
+chs_conf<6>    |chs_power<2>   |    7.212|
+chs_conf<6>    |chs_power<3>   |    7.227|
+chs_conf<7>    |chs_mode       |    7.128|
+chs_conf<7>    |chs_power<0>   |    6.886|
+chs_conf<7>    |chs_power<1>   |    6.213|
+chs_conf<7>    |chs_power<2>   |    7.080|
+chs_conf<7>    |chs_power<3>   |    7.095|
+---------------+---------------+---------+
+
+
+Analysis completed Thu Jan 28 16:56:16 2021 
+--------------------------------------------------------------------------------
+
+Trace Settings:
+-------------------------
+Trace Settings 
+
+Peak Memory Usage: 4553 MB
+
+
+

@@ -1,0 +1,385 @@
+Release 14.7 - xst P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.29 secs
+ 
+--> Parameter xsthdpdir set to xst
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.29 secs
+ 
+--> Reading design: seq_circuit.prj
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Parsing
+  3) HDL Elaboration
+  4) HDL Synthesis
+       4.1) HDL Synthesis Report
+  5) Advanced HDL Synthesis
+       5.1) Advanced HDL Synthesis Report
+  6) Low Level Synthesis
+  7) Partition Report
+  8) Design Summary
+       8.1) Primitive and Black Box Usage
+       8.2) Device utilization summary
+       8.3) Partition Resource Summary
+       8.4) Timing Report
+            8.4.1) Clock Information
+            8.4.2) Asynchronous Control Signals Information
+            8.4.3) Timing Summary
+            8.4.4) Timing Details
+            8.4.5) Cross Clock Domains Report
+
+
+=========================================================================
+*                      Synthesis Options Summary                        *
+=========================================================================
+---- Source Parameters
+Input File Name                    : "seq_circuit.prj"
+Ignore Synthesis Constraint File   : NO
+
+---- Target Parameters
+Output File Name                   : "seq_circuit"
+Output Format                      : NGC
+Target Device                      : xc7z010-1-clg400
+
+---- Source Options
+Top Module Name                    : seq_circuit
+Automatic FSM Extraction           : YES
+FSM Encoding Algorithm             : Auto
+Safe Implementation                : No
+FSM Style                          : LUT
+RAM Extraction                     : Yes
+RAM Style                          : Auto
+ROM Extraction                     : Yes
+Shift Register Extraction          : YES
+ROM Style                          : Auto
+Resource Sharing                   : YES
+Asynchronous To Synchronous        : NO
+Shift Register Minimum Size        : 2
+Use DSP Block                      : Auto
+Automatic Register Balancing       : No
+
+---- Target Options
+LUT Combining                      : Auto
+Reduce Control Sets                : Auto
+Add IO Buffers                     : YES
+Global Maximum Fanout              : 100000
+Add Generic Clock Buffer(BUFG)     : 32
+Register Duplication               : YES
+Optimize Instantiated Primitives   : NO
+Use Clock Enable                   : Auto
+Use Synchronous Set                : Auto
+Use Synchronous Reset              : Auto
+Pack IO Registers into IOBs        : Auto
+Equivalent register Removal        : YES
+
+---- General Options
+Optimization Goal                  : Speed
+Optimization Effort                : 1
+Power Reduction                    : NO
+Keep Hierarchy                     : No
+Netlist Hierarchy                  : As_Optimized
+RTL Output                         : Yes
+Global Optimization                : AllClockNets
+Read Cores                         : YES
+Write Timing Constraints           : NO
+Cross Clock Analysis               : NO
+Hierarchy Separator                : /
+Bus Delimiter                      : <>
+Case Specifier                     : Maintain
+Slice Utilization Ratio            : 100
+BRAM Utilization Ratio             : 100
+DSP48 Utilization Ratio            : 100
+Auto BRAM Packing                  : NO
+Slice Utilization Ratio Delta      : 5
+
+=========================================================================
+
+
+=========================================================================
+*                          HDL Parsing                                  *
+=========================================================================
+Analyzing Verilog file "C:\Users\f\Desktop\rojina\madar Manteghi\p9\project9\dflop_negedge.v" into library work
+Parsing module <dflop_negedge>.
+Analyzing Verilog file "C:\Users\f\Desktop\rojina\madar Manteghi\p9\project9\seq_circuit.v" into library work
+Parsing module <seq_circuit>.
+
+=========================================================================
+*                            HDL Elaboration                            *
+=========================================================================
+
+Elaborating module <seq_circuit>.
+
+Elaborating module <dflop_negedge>.
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Synthesizing Unit <seq_circuit>.
+    Related source file is "C:\Users\f\Desktop\rojina\madar Manteghi\p9\project9\seq_circuit.v".
+INFO:Xst:3210 - "C:\Users\f\Desktop\rojina\madar Manteghi\p9\project9\seq_circuit.v" line 40: Output port <qout> of the instance <g6> is unconnected or connected to loadless signal.
+    Summary:
+	no macro.
+Unit <seq_circuit> synthesized.
+
+Synthesizing Unit <dflop_negedge>.
+    Related source file is "C:\Users\f\Desktop\rojina\madar Manteghi\p9\project9\dflop_negedge.v".
+    Found 1-bit register for signal <qout>.
+    Summary:
+	inferred   1 D-type flip-flop(s).
+Unit <dflop_negedge> synthesized.
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# Registers                                            : 2
+ 1-bit register                                        : 2
+
+=========================================================================
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+
+=========================================================================
+Advanced HDL Synthesis Report
+
+Macro Statistics
+# Registers                                            : 2
+ Flip-Flops                                            : 2
+
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+
+Optimizing unit <seq_circuit> ...
+
+Mapping all equations...
+Building and optimizing final netlist ...
+Found area constraint ratio of 100 (+ 5) on block seq_circuit, actual ratio is 0.
+
+Final Macro Processing ...
+
+=========================================================================
+Final Register Report
+
+Macro Statistics
+# Registers                                            : 2
+ Flip-Flops                                            : 2
+
+=========================================================================
+
+=========================================================================
+*                           Partition Report                            *
+=========================================================================
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+=========================================================================
+*                            Design Summary                             *
+=========================================================================
+
+Top Level Output File Name         : seq_circuit.ngc
+
+Primitive and Black Box Usage:
+------------------------------
+# BELS                             : 3
+#      LUT3                        : 2
+#      LUT4                        : 1
+# FlipFlops/Latches                : 2
+#      FDC_1                       : 2
+# Clock Buffers                    : 1
+#      BUFGP                       : 1
+# IO Buffers                       : 5
+#      IBUF                        : 3
+#      OBUF                        : 2
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 7z010clg400-1 
+
+
+Slice Logic Utilization: 
+ Number of Slice Registers:               2  out of  35200     0%  
+ Number of Slice LUTs:                    3  out of  17600     0%  
+    Number used as Logic:                 3  out of  17600     0%  
+
+Slice Logic Distribution: 
+ Number of LUT Flip Flop pairs used:      5
+   Number with an unused Flip Flop:       3  out of      5    60%  
+   Number with an unused LUT:             2  out of      5    40%  
+   Number of fully used LUT-FF pairs:     0  out of      5     0%  
+   Number of unique control sets:         1
+
+IO Utilization: 
+ Number of IOs:                           6
+ Number of bonded IOBs:                   6  out of    100     6%  
+
+Specific Feature Utilization:
+ Number of BUFG/BUFGCTRLs:                1  out of     32     3%  
+
+---------------------------
+Partition Resource Summary:
+---------------------------
+
+  No Partitions were found in this design.
+
+---------------------------
+
+
+=========================================================================
+Timing Report
+
+NOTE: THESE TIMING NUMBERS ARE ONLY A SYNTHESIS ESTIMATE.
+      FOR ACCURATE TIMING INFORMATION PLEASE REFER TO THE TRACE REPORT
+      GENERATED AFTER PLACE-and-ROUTE.
+
+Clock Information:
+------------------
+-----------------------------------+------------------------+-------+
+Clock Signal                       | Clock buffer(FF name)  | Load  |
+-----------------------------------+------------------------+-------+
+clk                                | BUFGP                  | 2     |
+-----------------------------------+------------------------+-------+
+
+Asynchronous Control Signals Information:
+----------------------------------------
+No asynchronous control signals found in this design
+
+Timing Summary:
+---------------
+Speed Grade: -1
+
+   Minimum period: 0.852ns (Maximum Frequency: 1173.709MHz)
+   Minimum input arrival time before clock: 0.730ns
+   Maximum output required time after clock: 1.240ns
+   Maximum combinational path delay: 1.068ns
+
+Timing Details:
+---------------
+All values displayed in nanoseconds (ns)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'clk'
+  Clock period: 0.852ns (frequency: 1173.709MHz)
+  Total number of paths / destination ports: 3 / 2
+-------------------------------------------------------------------------
+Delay:               0.852ns (Levels of Logic = 1)
+  Source:            g6/qout (FF)
+  Destination:       g6/qout (FF)
+  Source Clock:      clk falling
+  Destination Clock: clk falling
+
+  Data Path: g6/qout to g6/qout
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDC_1:C->Q            3   0.289   0.499  g6/qout (g6/qout)
+     LUT4:I2->O            1   0.053   0.000  w<2>1 (w<2>)
+     FDC_1:D                   0.011          g6/qout
+    ----------------------------------------
+    Total                      0.852ns (0.353ns logic, 0.499ns route)
+                                       (41.4% logic, 58.6% route)
+
+=========================================================================
+Timing constraint: Default OFFSET IN BEFORE for Clock 'clk'
+  Total number of paths / destination ports: 6 / 4
+-------------------------------------------------------------------------
+Offset:              0.730ns (Levels of Logic = 1)
+  Source:            rst (PAD)
+  Destination:       g6/qout (FF)
+  Destination Clock: clk falling
+
+  Data Path: rst to g6/qout
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O             2   0.000   0.405  rst_IBUF (rst_IBUF)
+     FDC_1:CLR                 0.325          g6/qout
+    ----------------------------------------
+    Total                      0.730ns (0.325ns logic, 0.405ns route)
+                                       (44.5% logic, 55.5% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'clk'
+  Total number of paths / destination ports: 3 / 2
+-------------------------------------------------------------------------
+Offset:              1.240ns (Levels of Logic = 2)
+  Source:            g6/qout (FF)
+  Destination:       z (PAD)
+  Source Clock:      clk falling
+
+  Data Path: g6/qout to z
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDC_1:C->Q            3   0.289   0.499  g6/qout (g6/qout)
+     LUT3:I1->O            1   0.053   0.399  z1 (z_OBUF)
+     OBUF:I->O                 0.000          z_OBUF (z)
+    ----------------------------------------
+    Total                      1.240ns (0.342ns logic, 0.898ns route)
+                                       (27.6% logic, 72.4% route)
+
+=========================================================================
+Timing constraint: Default path analysis
+  Total number of paths / destination ports: 1 / 1
+-------------------------------------------------------------------------
+Delay:               1.068ns (Levels of Logic = 3)
+  Source:            b (PAD)
+  Destination:       z (PAD)
+
+  Data Path: b to z
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O             3   0.000   0.616  b_IBUF (b_IBUF)
+     LUT3:I0->O            1   0.053   0.399  z1 (z_OBUF)
+     OBUF:I->O                 0.000          z_OBUF (z)
+    ----------------------------------------
+    Total                      1.068ns (0.053ns logic, 1.015ns route)
+                                       (5.0% logic, 95.0% route)
+
+=========================================================================
+
+Cross Clock Domains Report:
+--------------------------
+
+Clock to Setup on destination clock clk
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+clk            |         |         |    0.852|         |
+---------------+---------+---------+---------+---------+
+
+=========================================================================
+
+
+Total REAL time to Xst completion: 14.00 secs
+Total CPU time to Xst completion: 14.53 secs
+ 
+--> 
+
+Total memory usage is 4616364 kilobytes
+
+Number of errors   :    0 (   0 filtered)
+Number of warnings :    0 (   0 filtered)
+Number of infos    :    1 (   0 filtered)
+

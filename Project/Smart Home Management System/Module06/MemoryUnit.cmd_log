@@ -1,0 +1,10 @@
+xst -intstyle ise -ifn "G:/prgs/prjs/tamrin/nikta/Module06/MemoryUnit.xst" -ofn "G:/prgs/prjs/tamrin/nikta/Module06/MemoryUnit.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx4-tqg144-3 MemoryUnit.ngc MemoryUnit.ngd  
+map -intstyle ise -p xc6slx4-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o MemoryUnit_map.ncd MemoryUnit.ngd MemoryUnit.pcf 
+par -w -intstyle ise -ol high -mt off MemoryUnit_map.ncd MemoryUnit.ncd MemoryUnit.pcf 
+xst -intstyle ise -ifn "G:/prgs/prjs/tamrin/nikta/Module06/MemoryUnit.xst" -ofn "G:/prgs/prjs/tamrin/nikta/Module06/MemoryUnit.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx4-tqg144-3 MemoryUnit.ngc MemoryUnit.ngd  
+map -intstyle ise -p xc6slx4-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o MemoryUnit_map.ncd MemoryUnit.ngd MemoryUnit.pcf 
+par -w -intstyle ise -ol high -mt off MemoryUnit_map.ncd MemoryUnit.ncd MemoryUnit.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml MemoryUnit.twx MemoryUnit.ncd -o MemoryUnit.twr MemoryUnit.pcf 
+xst -intstyle ise -ifn "C:/Users/f/Desktop/rojina/madar Manteghi/Smart Home Management System/Module06/MemoryUnit.xst" -ofn "C:/Users/f/Desktop/rojina/madar Manteghi/Smart Home Management System/Module06/MemoryUnit.syr" 

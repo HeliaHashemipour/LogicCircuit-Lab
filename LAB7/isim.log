@@ -1,0 +1,12 @@
+ISim log file
+Running: C:\Users\f\Desktop\rojina\madar Manteghi\p7\project7\tb_full_adder_isim_beh.exe -intstyle ise -gui -tclbatch isim.cmd -wdb C:/Users/f/Desktop/rojina/madar Manteghi/p7/project7/tb_full_adder_isim_beh.wdb 
+INFO: There is another simulation running in the same directory. Using database file name isim1.wdb.
+ISim P.20131013 (signature 0x7708f090)
+This is a Full version of ISim.
+Time resolution is 1 ps
+# onerror resume
+# wave add /
+# run 1000 ns
+Simulator is doing circuit initialization process.
+Finished circuit initialization process.
+Stopped at time : 600 ns : File "C:/Users/f/Desktop/rojina/madar Manteghi/p7/project7/tb_full_adder.v" Line 78

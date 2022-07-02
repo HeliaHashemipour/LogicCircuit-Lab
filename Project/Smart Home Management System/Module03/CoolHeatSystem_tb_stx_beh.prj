@@ -1,0 +1,5 @@
+verilog isim_temp "ModePower.v"
+verilog isim_temp "FanSpeed.v"
+verilog isim_temp "CoolHeatSystem.v"
+verilog isim_temp "CoolHeatSystem_tb.v"
+verilog isim_temp "C:/Xilinx/14.7/ISE_DS/ISE//verilog/src/glbl.v"

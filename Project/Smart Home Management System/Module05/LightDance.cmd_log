@@ -1,0 +1,10 @@
+xst -intstyle ise -ifn "G:/prgs/prjs/tamrin/nikta/Module05/LightDance.xst" -ofn "G:/prgs/prjs/tamrin/nikta/Module05/LightDance.syr" 
+xst -intstyle ise -ifn "G:/prgs/prjs/tamrin/nikta/Module05/LightDance.xst" -ofn "G:/prgs/prjs/tamrin/nikta/Module05/LightDance.syr" 
+xst -intstyle ise -ifn "G:/prgs/prjs/tamrin/nikta/Module05/LightDance.xst" -ofn "G:/prgs/prjs/tamrin/nikta/Module05/LightDance.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx4-tqg144-3 LightDance.ngc LightDance.ngd  
+map -intstyle ise -p xc6slx4-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o LightDance_map.ncd LightDance.ngd LightDance.pcf 
+par -w -intstyle ise -ol high -mt off LightDance_map.ncd LightDance.ncd LightDance.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml LightDance.twx LightDance.ncd -o LightDance.twr LightDance.pcf 
+xst -intstyle ise -ifn "C:/Users/f/Desktop/rojina/madar Manteghi/Smart Home Management System/Module05/LightDance.xst" -ofn "C:/Users/f/Desktop/rojina/madar Manteghi/Smart Home Management System/Module05/LightDance.syr" 
+xst -intstyle ise -ifn "C:/Users/f/Desktop/rojina/madar Manteghi/Smart Home Management System/Module05/LightDance.xst" -ofn "C:/Users/f/Desktop/rojina/madar Manteghi/Smart Home Management System/Module05/LightDance.syr" 
+xst -intstyle ise -ifn "C:/Users/f/Desktop/rojina/madar Manteghi/Smart Home Management System/Module05/LightDance.xst" -ofn "C:/Users/f/Desktop/rojina/madar Manteghi/Smart Home Management System/Module05/LightDance.syr" 

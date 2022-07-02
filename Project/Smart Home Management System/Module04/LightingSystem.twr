@@ -1,0 +1,277 @@
+--------------------------------------------------------------------------------
+Release 14.7 Trace  (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+
+C:\Xilinx\14.7\ISE_DS\ISE\bin\nt64\unwrapped\trce.exe -intstyle ise -v 3 -s 3
+-n 3 -fastpaths -xml LightingSystem.twx LightingSystem.ncd -o
+LightingSystem.twr LightingSystem.pcf
+
+Design file:              LightingSystem.ncd
+Physical constraint file: LightingSystem.pcf
+Device,package,speed:     xc6slx4,tqg144,C,-3 (PRODUCTION 1.23 2013-10-13)
+Report level:             verbose report
+
+Environment Variable      Effect 
+--------------------      ------ 
+NONE                      No environment variables were set
+--------------------------------------------------------------------------------
+
+INFO:Timing:2698 - No timing constraints found, doing default enumeration.
+INFO:Timing:3412 - To improve timing, see the Timing Closure User Guide (UG612).
+INFO:Timing:2752 - To get complete path coverage, use the unconstrained paths 
+   option. All paths that are not constrained will be reported in the 
+   unconstrained paths section(s) of the report.
+INFO:Timing:3339 - The clock-to-out numbers in this timing report are based on 
+   a 50 Ohm transmission line loading model.  For the details of this model, 
+   and for more information on accounting for different loading conditions, 
+   please see the device datasheet.
+
+
+
+Data Sheet report:
+-----------------
+All values displayed in nanoseconds (ns)
+
+Pad to Pad
+---------------+---------------+---------+
+Source Pad     |Destination Pad|  Delay  |
+---------------+---------------+---------+
+lenght<0>      |lightnum<0>    |   11.116|
+lenght<0>      |lightnum<1>    |   11.294|
+lenght<0>      |lightnum<2>    |   11.854|
+lenght<0>      |lightnum<3>    |   12.017|
+lenght<0>      |lightstate<0>  |   12.389|
+lenght<0>      |lightstate<1>  |   12.266|
+lenght<0>      |lightstate<2>  |   12.100|
+lenght<0>      |lightstate<3>  |   12.139|
+lenght<0>      |lightstate<4>  |   11.730|
+lenght<0>      |lightstate<5>  |   12.033|
+lenght<0>      |lightstate<6>  |   11.745|
+lenght<0>      |lightstate<7>  |   11.119|
+lenght<0>      |lightstate<8>  |   12.530|
+lenght<0>      |lightstate<9>  |   11.841|
+lenght<0>      |lightstate<10> |   12.095|
+lenght<0>      |lightstate<11> |   11.853|
+lenght<0>      |lightstate<12> |   12.106|
+lenght<0>      |lightstate<13> |   12.182|
+lenght<0>      |lightstate<14> |   12.776|
+lenght<1>      |lightnum<0>    |   10.929|
+lenght<1>      |lightnum<1>    |   11.194|
+lenght<1>      |lightnum<2>    |   11.754|
+lenght<1>      |lightnum<3>    |   11.917|
+lenght<1>      |lightstate<0>  |   12.289|
+lenght<1>      |lightstate<1>  |   12.166|
+lenght<1>      |lightstate<2>  |   12.000|
+lenght<1>      |lightstate<3>  |   12.039|
+lenght<1>      |lightstate<4>  |   11.630|
+lenght<1>      |lightstate<5>  |   11.933|
+lenght<1>      |lightstate<6>  |   11.645|
+lenght<1>      |lightstate<7>  |   11.019|
+lenght<1>      |lightstate<8>  |   12.430|
+lenght<1>      |lightstate<9>  |   11.741|
+lenght<1>      |lightstate<10> |   11.995|
+lenght<1>      |lightstate<11> |   11.753|
+lenght<1>      |lightstate<12> |   12.006|
+lenght<1>      |lightstate<13> |   12.082|
+lenght<1>      |lightstate<14> |   12.676|
+lenght<2>      |lightnum<0>    |   11.337|
+lenght<2>      |lightnum<1>    |   11.176|
+lenght<2>      |lightnum<2>    |   11.736|
+lenght<2>      |lightnum<3>    |   11.899|
+lenght<2>      |lightstate<0>  |   12.271|
+lenght<2>      |lightstate<1>  |   12.148|
+lenght<2>      |lightstate<2>  |   11.982|
+lenght<2>      |lightstate<3>  |   12.021|
+lenght<2>      |lightstate<4>  |   11.612|
+lenght<2>      |lightstate<5>  |   11.915|
+lenght<2>      |lightstate<6>  |   11.627|
+lenght<2>      |lightstate<7>  |   11.001|
+lenght<2>      |lightstate<8>  |   12.412|
+lenght<2>      |lightstate<9>  |   11.723|
+lenght<2>      |lightstate<10> |   11.977|
+lenght<2>      |lightstate<11> |   11.735|
+lenght<2>      |lightstate<12> |   11.988|
+lenght<2>      |lightstate<13> |   12.064|
+lenght<2>      |lightstate<14> |   12.658|
+lenght<3>      |lightnum<0>    |    9.940|
+lenght<3>      |lightnum<1>    |   10.196|
+lenght<3>      |lightnum<2>    |   10.756|
+lenght<3>      |lightnum<3>    |   10.919|
+lenght<3>      |lightstate<0>  |   11.291|
+lenght<3>      |lightstate<1>  |   11.168|
+lenght<3>      |lightstate<2>  |   11.002|
+lenght<3>      |lightstate<3>  |   11.041|
+lenght<3>      |lightstate<4>  |   10.632|
+lenght<3>      |lightstate<5>  |   10.935|
+lenght<3>      |lightstate<6>  |   10.647|
+lenght<3>      |lightstate<7>  |   10.021|
+lenght<3>      |lightstate<8>  |   11.432|
+lenght<3>      |lightstate<9>  |   10.743|
+lenght<3>      |lightstate<10> |   10.997|
+lenght<3>      |lightstate<11> |   10.755|
+lenght<3>      |lightstate<12> |   11.008|
+lenght<3>      |lightstate<13> |   11.084|
+lenght<3>      |lightstate<14> |   11.678|
+tcode<0>       |lightnum<0>    |   10.997|
+tcode<0>       |lightnum<1>    |   10.953|
+tcode<0>       |lightnum<2>    |   11.373|
+tcode<0>       |lightnum<3>    |   11.791|
+tcode<0>       |lightstate<0>  |   12.163|
+tcode<0>       |lightstate<1>  |   11.854|
+tcode<0>       |lightstate<2>  |   11.646|
+tcode<0>       |lightstate<3>  |   11.771|
+tcode<0>       |lightstate<4>  |   11.336|
+tcode<0>       |lightstate<5>  |   11.552|
+tcode<0>       |lightstate<6>  |   11.351|
+tcode<0>       |lightstate<7>  |   10.893|
+tcode<0>       |lightstate<8>  |   12.049|
+tcode<0>       |lightstate<9>  |   11.360|
+tcode<0>       |lightstate<10> |   11.641|
+tcode<0>       |lightstate<11> |   11.485|
+tcode<0>       |lightstate<12> |   11.880|
+tcode<0>       |lightstate<13> |   11.770|
+tcode<0>       |lightstate<14> |   12.295|
+tcode<0>       |wshade<0>      |    9.552|
+tcode<0>       |wshade<1>      |    9.350|
+tcode<0>       |wshade<2>      |   10.224|
+tcode<0>       |wshade<3>      |    9.762|
+tcode<1>       |lightnum<0>    |   11.046|
+tcode<1>       |lightnum<1>    |   10.952|
+tcode<1>       |lightnum<2>    |   11.327|
+tcode<1>       |lightnum<3>    |   11.711|
+tcode<1>       |lightstate<0>  |   12.083|
+tcode<1>       |lightstate<1>  |   11.774|
+tcode<1>       |lightstate<2>  |   11.671|
+tcode<1>       |lightstate<3>  |   11.691|
+tcode<1>       |lightstate<4>  |   11.323|
+tcode<1>       |lightstate<5>  |   11.506|
+tcode<1>       |lightstate<6>  |   11.338|
+tcode<1>       |lightstate<7>  |   10.813|
+tcode<1>       |lightstate<8>  |   12.003|
+tcode<1>       |lightstate<9>  |   11.314|
+tcode<1>       |lightstate<10> |   11.666|
+tcode<1>       |lightstate<11> |   11.405|
+tcode<1>       |lightstate<12> |   11.800|
+tcode<1>       |lightstate<13> |   11.690|
+tcode<1>       |lightstate<14> |   12.249|
+tcode<1>       |wshade<0>      |    9.382|
+tcode<1>       |wshade<1>      |    8.993|
+tcode<1>       |wshade<2>      |    9.538|
+tcode<1>       |wshade<3>      |    9.291|
+tcode<2>       |lightnum<0>    |   11.346|
+tcode<2>       |lightnum<1>    |   11.340|
+tcode<2>       |lightnum<2>    |   11.294|
+tcode<2>       |lightnum<3>    |   11.660|
+tcode<2>       |lightstate<0>  |   12.082|
+tcode<2>       |lightstate<1>  |   11.945|
+tcode<2>       |lightstate<2>  |   11.971|
+tcode<2>       |lightstate<3>  |   11.640|
+tcode<2>       |lightstate<4>  |   11.711|
+tcode<2>       |lightstate<5>  |   11.740|
+tcode<2>       |lightstate<6>  |   11.726|
+tcode<2>       |lightstate<7>  |   10.762|
+tcode<2>       |lightstate<8>  |   12.189|
+tcode<2>       |lightstate<9>  |   11.548|
+tcode<2>       |lightstate<10> |   11.966|
+tcode<2>       |lightstate<11> |   11.354|
+tcode<2>       |lightstate<12> |   11.799|
+tcode<2>       |lightstate<13> |   11.861|
+tcode<2>       |lightstate<14> |   12.435|
+tcode<2>       |wshade<0>      |    9.475|
+tcode<2>       |wshade<1>      |    9.072|
+tcode<2>       |wshade<2>      |    9.977|
+tcode<2>       |wshade<3>      |    9.878|
+tcode<3>       |lightnum<0>    |   10.830|
+tcode<3>       |lightnum<1>    |   11.154|
+tcode<3>       |lightnum<2>    |   11.303|
+tcode<3>       |lightnum<3>    |   11.663|
+tcode<3>       |lightstate<0>  |   12.035|
+tcode<3>       |lightstate<1>  |   11.759|
+tcode<3>       |lightstate<2>  |   11.607|
+tcode<3>       |lightstate<3>  |   11.643|
+tcode<3>       |lightstate<4>  |   11.525|
+tcode<3>       |lightstate<5>  |   11.554|
+tcode<3>       |lightstate<6>  |   11.540|
+tcode<3>       |lightstate<7>  |   10.765|
+tcode<3>       |lightstate<8>  |   12.003|
+tcode<3>       |lightstate<9>  |   11.362|
+tcode<3>       |lightstate<10> |   11.602|
+tcode<3>       |lightstate<11> |   11.357|
+tcode<3>       |lightstate<12> |   11.752|
+tcode<3>       |lightstate<13> |   11.675|
+tcode<3>       |lightstate<14> |   12.249|
+tcode<3>       |wshade<0>      |   10.020|
+tcode<3>       |wshade<1>      |    9.404|
+tcode<3>       |wshade<2>      |    9.874|
+tcode<3>       |wshade<3>      |    9.816|
+ulight<0>      |lightnum<0>    |   11.038|
+ulight<0>      |lightstate<0>  |   11.774|
+ulight<0>      |lightstate<2>  |   11.663|
+ulight<0>      |lightstate<4>  |   11.108|
+ulight<0>      |lightstate<6>  |   11.123|
+ulight<0>      |lightstate<8>  |   11.503|
+ulight<0>      |lightstate<10> |   11.658|
+ulight<0>      |lightstate<12> |   11.491|
+ulight<0>      |lightstate<14> |   11.749|
+ulight<0>      |wshade<0>      |    9.443|
+ulight<1>      |lightnum<1>    |   10.756|
+ulight<1>      |lightstate<0>  |   11.465|
+ulight<1>      |lightstate<1>  |   11.361|
+ulight<1>      |lightstate<2>  |   11.209|
+ulight<1>      |lightstate<4>  |   11.127|
+ulight<1>      |lightstate<5>  |   11.156|
+ulight<1>      |lightstate<6>  |   11.142|
+ulight<1>      |lightstate<8>  |   11.605|
+ulight<1>      |lightstate<9>  |   10.964|
+ulight<1>      |lightstate<10> |   11.204|
+ulight<1>      |lightstate<12> |   11.182|
+ulight<1>      |lightstate<13> |   11.277|
+ulight<1>      |lightstate<14> |   11.851|
+ulight<1>      |wshade<1>      |    9.085|
+ulight<2>      |lightnum<2>    |   11.023|
+ulight<2>      |lightstate<0>  |   11.519|
+ulight<2>      |lightstate<1>  |   11.435|
+ulight<2>      |lightstate<2>  |   11.269|
+ulight<2>      |lightstate<3>  |   11.308|
+ulight<2>      |lightstate<4>  |   10.899|
+ulight<2>      |lightstate<5>  |   11.202|
+ulight<2>      |lightstate<6>  |   10.914|
+ulight<2>      |lightstate<8>  |   11.699|
+ulight<2>      |lightstate<9>  |   11.010|
+ulight<2>      |lightstate<10> |   11.264|
+ulight<2>      |lightstate<11> |   11.022|
+ulight<2>      |lightstate<12> |   11.236|
+ulight<2>      |lightstate<13> |   11.351|
+ulight<2>      |lightstate<14> |   11.945|
+ulight<2>      |wshade<2>      |    9.231|
+ulight<3>      |lightnum<3>    |   11.263|
+ulight<3>      |lightstate<0>  |   11.635|
+ulight<3>      |lightstate<1>  |   11.326|
+ulight<3>      |lightstate<2>  |   11.118|
+ulight<3>      |lightstate<3>  |   11.243|
+ulight<3>      |lightstate<4>  |   10.808|
+ulight<3>      |lightstate<5>  |   10.903|
+ulight<3>      |lightstate<6>  |   10.823|
+ulight<3>      |lightstate<7>  |   10.365|
+ulight<3>      |lightstate<8>  |   11.048|
+ulight<3>      |lightstate<9>  |   10.711|
+ulight<3>      |lightstate<10> |   11.113|
+ulight<3>      |lightstate<11> |   10.957|
+ulight<3>      |lightstate<12> |   11.352|
+ulight<3>      |lightstate<13> |   11.242|
+ulight<3>      |lightstate<14> |   11.294|
+ulight<3>      |wshade<3>      |    8.756|
+---------------+---------------+---------+
+
+
+Analysis completed Fri Feb 05 10:09:14 2021 
+--------------------------------------------------------------------------------
+
+Trace Settings:
+-------------------------
+Trace Settings 
+
+Peak Memory Usage: 4553 MB
+
+
+

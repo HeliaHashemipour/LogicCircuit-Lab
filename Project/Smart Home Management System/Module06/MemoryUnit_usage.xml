@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IMPORTANT: This is an internal file that has been generated
+     by the Xilinx ISE software.  Any direct editing or
+     changes made to this file may result in unpredictable
+     behavior or data corruption.  It is strongly advised that
+     users do not edit the contents of this file. -->
+<DeviceUsageSummary rev="2">
+<DesignStatistics TimeStamp="Thu Jan 28 00:19:33 2021"><group name="MiscellaneousStatistics">
+<item name="AGG_BONDED_IO" rev="2">
+<attrib name="value" value="73"/></item>
+<item name="AGG_IO" rev="2">
+<attrib name="value" value="73"/></item>
+<item name="NUM_BONDED_IOB" rev="2">
+<attrib name="value" value="73"/></item>
+<item name="NUM_BUFG" rev="2">
+<attrib name="value" value="1"/></item>
+<item name="NUM_ILOGIC2" rev="2">
+<attrib name="value" value="33"/></item>
+<item name="NUM_IOB_FF" rev="2">
+<attrib name="value" value="35"/></item>
+<item name="NUM_OLOGIC2" rev="2">
+<attrib name="value" value="2"/></item>
+</group>
+</DesignStatistics>
+<CmdHistory>
+</CmdHistory>
+</DeviceUsageSummary>

@@ -1,0 +1,5 @@
+verilog work "multiplexer.v"
+verilog work "halfAdder.v"
+verilog work "alu.v"
+verilog work "tb_alu.v"
+verilog work "C:/Xilinx/14.7/ISE_DS/ISE//verilog/src/glbl.v"

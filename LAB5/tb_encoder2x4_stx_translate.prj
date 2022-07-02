@@ -1,0 +1,2 @@
+verilog isim_temp "netgen/translate/encoder4x2_translate.v"
+verilog isim_temp "tb_encoder4x2.v"

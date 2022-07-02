@@ -1,0 +1,3 @@
+verilog work "multiplexer.v"
+verilog work "halfAdder.v"
+verilog work "alu.v"

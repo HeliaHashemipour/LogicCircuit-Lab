@@ -1,0 +1,26 @@
+Release 14.7 Map P.20131013 (nt64)
+Xilinx Map Application Log File for Design 'seq_circuit'
+
+Design Information
+------------------
+Command Line   : map -intstyle ise -p xc7z010-clg400-1 -w -logic_opt off -ol
+high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off
+-power off -o seq_circuit_map.ncd seq_circuit.ngd seq_circuit.pcf 
+Target Device  : xc7z010
+Target Package : clg400
+Target Speed   : -1
+Mapper Version : zynq -- $Revision: 1.55 $
+Mapped Date    : Fri Dec 18 12:46:59 2020
+
+WARNING:LIT:701 - PAD symbol "clk" has an undefined IOSTANDARD.
+WARNING:LIT:702 - PAD symbol "clk" is not constrained (LOC) to a specific
+   location.
+Mapping design into LUTs...
+Running directed packing...
+Running delay-based LUT packing...
+Updating timing models...
+INFO:Map:215 - The Interim Design Summary has been generated in the MAP Report
+   (.mrp).
+Running timing-driven placement...
+Total REAL time at the beginning of Placer: 30 secs 
+Total CPU  time at the beginning of Placer: 26 secs 

@@ -1,0 +1,4 @@
+verilog work "dff.v"
+verilog work "register.v"
+verilog work "fsm.v"
+verilog work "system.v"

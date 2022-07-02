@@ -1,0 +1,2 @@
+verilog isim_temp "netgen/translate/function4x1_translate.v"
+verilog isim_temp "tb_function4x1.v"

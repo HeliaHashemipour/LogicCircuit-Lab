@@ -1,0 +1,28 @@
+Command line:
+   LightingSystem_tb_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  58820
+
+Sat Feb 06 16:55:12 2021
+
+
+ Elaboration Time: 0.109375 sec
+
+ Current Memory Usage: 5153.76 Meg
+
+ Total Signals          : 31
+ Total Nets             : 53
+ Total Signal Drivers   : 12
+ Total Blocks           : 6
+ Total Primitive Blocks : 4
+ Total Processes        : 18
+ Total Traceable Variables  : 27
+ Total Scalar Nets and Variables : 213
+
+ Total Simulation Time: 0.125 sec
+
+ Current Memory Usage: 4996.48 Meg
+
+Sat Feb 06 16:58:49 2021
+

@@ -1,0 +1,177 @@
+xst -intstyle ise -ifn "G:/prgs/prjs/tamrin/nikta/Module07/ControlUnit.xst" -ofn "G:/prgs/prjs/tamrin/nikta/Module07/ControlUnit.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx4-tqg144-3 ControlUnit.ngc ControlUnit.ngd  
+map -intstyle ise -p xc6slx4-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o ControlUnit_map.ncd ControlUnit.ngd ControlUnit.pcf 
+par -w -intstyle ise -ol high -mt off ControlUnit_map.ncd ControlUnit.ncd ControlUnit.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml ControlUnit.twx ControlUnit.ncd -o ControlUnit.twr ControlUnit.pcf 
+xst -intstyle ise -ifn "G:/prgs/prjs/tamrin/nikta/Module07/ControlUnit.xst" -ofn "G:/prgs/prjs/tamrin/nikta/Module07/ControlUnit.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx4-tqg144-3 ControlUnit.ngc ControlUnit.ngd  
+map -intstyle ise -p xc6slx4-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o ControlUnit_map.ncd ControlUnit.ngd ControlUnit.pcf 
+par -w -intstyle ise -ol high -mt off ControlUnit_map.ncd ControlUnit.ncd ControlUnit.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml ControlUnit.twx ControlUnit.ncd -o ControlUnit.twr ControlUnit.pcf 
+xst -intstyle ise -ifn "G:/prgs/prjs/tamrin/nikta/Module07/ControlUnit.xst" -ofn "G:/prgs/prjs/tamrin/nikta/Module07/ControlUnit.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx4-tqg144-3 ControlUnit.ngc ControlUnit.ngd  
+map -intstyle ise -p xc6slx4-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o ControlUnit_map.ncd ControlUnit.ngd ControlUnit.pcf 
+par -w -intstyle ise -ol high -mt off ControlUnit_map.ncd ControlUnit.ncd ControlUnit.pcf 
+xst -intstyle ise -ifn "G:/prgs/prjs/tamrin/nikta/Module07/ControlUnit.xst" -ofn "G:/prgs/prjs/tamrin/nikta/Module07/ControlUnit.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx4-tqg144-3 ControlUnit.ngc ControlUnit.ngd  
+map -intstyle ise -p xc6slx4-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o ControlUnit_map.ncd ControlUnit.ngd ControlUnit.pcf 
+par -w -intstyle ise -ol high -mt off ControlUnit_map.ncd ControlUnit.ncd ControlUnit.pcf 
+xst -intstyle ise -ifn "G:/prgs/prjs/tamrin/nikta/Module07/ControlUnit.xst" -ofn "G:/prgs/prjs/tamrin/nikta/Module07/ControlUnit.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx4-tqg144-3 ControlUnit.ngc ControlUnit.ngd  
+map -intstyle ise -p xc6slx4-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o ControlUnit_map.ncd ControlUnit.ngd ControlUnit.pcf 
+par -w -intstyle ise -ol high -mt off ControlUnit_map.ncd ControlUnit.ncd ControlUnit.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml ControlUnit.twx ControlUnit.ncd -o ControlUnit.twr ControlUnit.pcf 
+xst -intstyle ise -ifn "G:/prgs/prjs/tamrin/nikta/Module07/ControlUnit.xst" -ofn "G:/prgs/prjs/tamrin/nikta/Module07/ControlUnit.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx4-tqg144-3 ControlUnit.ngc ControlUnit.ngd  
+map -intstyle ise -p xc6slx4-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o ControlUnit_map.ncd ControlUnit.ngd ControlUnit.pcf 
+par -w -intstyle ise -ol high -mt off ControlUnit_map.ncd ControlUnit.ncd ControlUnit.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml ControlUnit.twx ControlUnit.ncd -o ControlUnit.twr ControlUnit.pcf 
+xst -intstyle ise -ifn "G:/prgs/prjs/tamrin/nikta/Module07/ControlUnit.xst" -ofn "G:/prgs/prjs/tamrin/nikta/Module07/ControlUnit.syr" 
+xst -intstyle ise -ifn "G:/prgs/prjs/tamrin/nikta/Module07/ControlUnit.xst" -ofn "G:/prgs/prjs/tamrin/nikta/Module07/ControlUnit.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx4-tqg144-3 ControlUnit.ngc ControlUnit.ngd  
+map -intstyle ise -p xc6slx4-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o ControlUnit_map.ncd ControlUnit.ngd ControlUnit.pcf 
+par -w -intstyle ise -ol high -mt off ControlUnit_map.ncd ControlUnit.ncd ControlUnit.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml ControlUnit.twx ControlUnit.ncd -o ControlUnit.twr ControlUnit.pcf 
+xst -intstyle ise -ifn "G:/prgs/prjs/tamrin/nikta/Module07/ControlUnit.xst" -ofn "G:/prgs/prjs/tamrin/nikta/Module07/ControlUnit.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx4-tqg144-3 ControlUnit.ngc ControlUnit.ngd  
+map -intstyle ise -p xc6slx4-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o ControlUnit_map.ncd ControlUnit.ngd ControlUnit.pcf 
+par -w -intstyle ise -ol high -mt off ControlUnit_map.ncd ControlUnit.ncd ControlUnit.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml ControlUnit.twx ControlUnit.ncd -o ControlUnit.twr ControlUnit.pcf 
+xst -intstyle ise -ifn "G:/prgs/prjs/tamrin/nikta/Module07/ControlUnit.xst" -ofn "G:/prgs/prjs/tamrin/nikta/Module07/ControlUnit.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx4-tqg144-3 ControlUnit.ngc ControlUnit.ngd  
+map -intstyle ise -p xc6slx4-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o ControlUnit_map.ncd ControlUnit.ngd ControlUnit.pcf 
+par -w -intstyle ise -ol high -mt off ControlUnit_map.ncd ControlUnit.ncd ControlUnit.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml ControlUnit.twx ControlUnit.ncd -o ControlUnit.twr ControlUnit.pcf 
+xst -intstyle ise -ifn "G:/prgs/prjs/tamrin/nikta/Module07/ControlUnit.xst" -ofn "G:/prgs/prjs/tamrin/nikta/Module07/ControlUnit.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx4-tqg144-3 ControlUnit.ngc ControlUnit.ngd  
+map -intstyle ise -p xc6slx4-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o ControlUnit_map.ncd ControlUnit.ngd ControlUnit.pcf 
+xst -intstyle ise -ifn "G:/prgs/prjs/tamrin/nikta/Module07/ControlUnit.xst" -ofn "G:/prgs/prjs/tamrin/nikta/Module07/ControlUnit.syr" 
+xst -intstyle ise -ifn "G:/prgs/prjs/tamrin/nikta/Module07/ControlUnit.xst" -ofn "G:/prgs/prjs/tamrin/nikta/Module07/ControlUnit.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx4-tqg144-3 ControlUnit.ngc ControlUnit.ngd  
+map -intstyle ise -p xc6slx4-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o ControlUnit_map.ncd ControlUnit.ngd ControlUnit.pcf 
+par -w -intstyle ise -ol high -mt off ControlUnit_map.ncd ControlUnit.ncd ControlUnit.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml ControlUnit.twx ControlUnit.ncd -o ControlUnit.twr ControlUnit.pcf 
+xst -intstyle ise -ifn "G:/prgs/prjs/tamrin/nikta/Module07/ControlUnit.xst" -ofn "G:/prgs/prjs/tamrin/nikta/Module07/ControlUnit.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx4-tqg144-3 ControlUnit.ngc ControlUnit.ngd  
+map -intstyle ise -p xc6slx4-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o ControlUnit_map.ncd ControlUnit.ngd ControlUnit.pcf 
+par -w -intstyle ise -ol high -mt off ControlUnit_map.ncd ControlUnit.ncd ControlUnit.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml ControlUnit.twx ControlUnit.ncd -o ControlUnit.twr ControlUnit.pcf 
+xst -intstyle ise -ifn "G:/prgs/prjs/tamrin/nikta/Module07/ControlUnit.xst" -ofn "G:/prgs/prjs/tamrin/nikta/Module07/ControlUnit.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx4-tqg144-3 ControlUnit.ngc ControlUnit.ngd  
+map -intstyle ise -p xc6slx4-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o ControlUnit_map.ncd ControlUnit.ngd ControlUnit.pcf 
+par -w -intstyle ise -ol high -mt off ControlUnit_map.ncd ControlUnit.ncd ControlUnit.pcf 
+xst -intstyle ise -ifn "G:/prgs/prjs/tamrin/nikta/Module07/ControlUnit.xst" -ofn "G:/prgs/prjs/tamrin/nikta/Module07/ControlUnit.syr" 
+xst -intstyle ise -ifn "G:/prgs/prjs/tamrin/nikta/Module07/ControlUnit.xst" -ofn "G:/prgs/prjs/tamrin/nikta/Module07/ControlUnit.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx4-tqg144-3 ControlUnit.ngc ControlUnit.ngd  
+map -intstyle ise -p xc6slx4-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o ControlUnit_map.ncd ControlUnit.ngd ControlUnit.pcf 
+par -w -intstyle ise -ol high -mt off ControlUnit_map.ncd ControlUnit.ncd ControlUnit.pcf 
+xst -intstyle ise -ifn "G:/prgs/prjs/tamrin/nikta/Module07/ControlUnit.xst" -ofn "G:/prgs/prjs/tamrin/nikta/Module07/ControlUnit.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx4-tqg144-3 ControlUnit.ngc ControlUnit.ngd  
+map -intstyle ise -p xc6slx4-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o ControlUnit_map.ncd ControlUnit.ngd ControlUnit.pcf 
+par -w -intstyle ise -ol high -mt off ControlUnit_map.ncd ControlUnit.ncd ControlUnit.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml ControlUnit.twx ControlUnit.ncd -o ControlUnit.twr ControlUnit.pcf 
+xst -intstyle ise -ifn "G:/prgs/prjs/tamrin/nikta/Module07/ControlUnit.xst" -ofn "G:/prgs/prjs/tamrin/nikta/Module07/ControlUnit.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx4-tqg144-3 ControlUnit.ngc ControlUnit.ngd  
+map -intstyle ise -p xc6slx4-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o ControlUnit_map.ncd ControlUnit.ngd ControlUnit.pcf 
+par -w -intstyle ise -ol high -mt off ControlUnit_map.ncd ControlUnit.ncd ControlUnit.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml ControlUnit.twx ControlUnit.ncd -o ControlUnit.twr ControlUnit.pcf 
+xst -intstyle ise -ifn "G:/prgs/prjs/tamrin/nikta/Module07/ControlUnit.xst" -ofn "G:/prgs/prjs/tamrin/nikta/Module07/ControlUnit.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx4-tqg144-3 ControlUnit.ngc ControlUnit.ngd  
+map -intstyle ise -p xc6slx4-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o ControlUnit_map.ncd ControlUnit.ngd ControlUnit.pcf 
+par -w -intstyle ise -ol high -mt off ControlUnit_map.ncd ControlUnit.ncd ControlUnit.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml ControlUnit.twx ControlUnit.ncd -o ControlUnit.twr ControlUnit.pcf 
+xst -intstyle ise -ifn "G:/prgs/prjs/tamrin/nikta/Module07/ControlUnit.xst" -ofn "G:/prgs/prjs/tamrin/nikta/Module07/ControlUnit.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx4-tqg144-3 ControlUnit.ngc ControlUnit.ngd  
+map -intstyle ise -p xc6slx4-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o ControlUnit_map.ncd ControlUnit.ngd ControlUnit.pcf 
+par -w -intstyle ise -ol high -mt off ControlUnit_map.ncd ControlUnit.ncd ControlUnit.pcf 
+xst -intstyle ise -ifn "G:/prgs/prjs/tamrin/nikta/Module07/ControlUnit.xst" -ofn "G:/prgs/prjs/tamrin/nikta/Module07/ControlUnit.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc7vx330t-ffg1157-3 ControlUnit.ngc ControlUnit.ngd  
+map -intstyle ise -p xc7vx330t-ffg1157-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o ControlUnit_map.ncd ControlUnit.ngd ControlUnit.pcf 
+xst -intstyle ise -ifn "G:/prgs/prjs/tamrin/nikta/Module07/ControlUnit.xst" -ofn "G:/prgs/prjs/tamrin/nikta/Module07/ControlUnit.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx4-tqg144-3 ControlUnit.ngc ControlUnit.ngd  
+map -intstyle ise -p xc6slx4-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o ControlUnit_map.ncd ControlUnit.ngd ControlUnit.pcf 
+par -w -intstyle ise -ol high -mt off ControlUnit_map.ncd ControlUnit.ncd ControlUnit.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml ControlUnit.twx ControlUnit.ncd -o ControlUnit.twr ControlUnit.pcf 
+xst -intstyle ise -ifn "G:/prgs/prjs/tamrin/nikta/Module07/ControlUnit.xst" -ofn "G:/prgs/prjs/tamrin/nikta/Module07/ControlUnit.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx4-tqg144-3 ControlUnit.ngc ControlUnit.ngd  
+map -intstyle ise -p xc6slx4-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o ControlUnit_map.ncd ControlUnit.ngd ControlUnit.pcf 
+par -w -intstyle ise -ol high -mt off ControlUnit_map.ncd ControlUnit.ncd ControlUnit.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml ControlUnit.twx ControlUnit.ncd -o ControlUnit.twr ControlUnit.pcf 
+xst -intstyle ise -ifn "G:/prgs/prjs/tamrin/nikta/Module07/ControlUnit.xst" -ofn "G:/prgs/prjs/tamrin/nikta/Module07/ControlUnit.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx4-tqg144-3 ControlUnit.ngc ControlUnit.ngd  
+map -intstyle ise -p xc6slx4-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o ControlUnit_map.ncd ControlUnit.ngd ControlUnit.pcf 
+par -w -intstyle ise -ol high -mt off ControlUnit_map.ncd ControlUnit.ncd ControlUnit.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml ControlUnit.twx ControlUnit.ncd -o ControlUnit.twr ControlUnit.pcf 
+xst -intstyle ise -ifn "G:/prgs/prjs/tamrin/nikta/Module07/ControlUnit.xst" -ofn "G:/prgs/prjs/tamrin/nikta/Module07/ControlUnit.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx4-tqg144-3 ControlUnit.ngc ControlUnit.ngd  
+map -intstyle ise -p xc6slx4-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o ControlUnit_map.ncd ControlUnit.ngd ControlUnit.pcf 
+par -w -intstyle ise -ol high -mt off ControlUnit_map.ncd ControlUnit.ncd ControlUnit.pcf 
+xst -intstyle ise -ifn "G:/prgs/prjs/tamrin/nikta/Module07/ControlUnit.xst" -ofn "G:/prgs/prjs/tamrin/nikta/Module07/ControlUnit.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx4-tqg144-3 ControlUnit.ngc ControlUnit.ngd  
+map -intstyle ise -p xc6slx4-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o ControlUnit_map.ncd ControlUnit.ngd ControlUnit.pcf 
+par -w -intstyle ise -ol high -mt off ControlUnit_map.ncd ControlUnit.ncd ControlUnit.pcf 
+xst -intstyle ise -ifn "G:/prgs/prjs/tamrin/nikta/Module07/ControlUnit.xst" -ofn "G:/prgs/prjs/tamrin/nikta/Module07/ControlUnit.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx4-tqg144-3 ControlUnit.ngc ControlUnit.ngd  
+map -intstyle ise -p xc6slx4-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o ControlUnit_map.ncd ControlUnit.ngd ControlUnit.pcf 
+xst -intstyle ise -ifn "G:/prgs/prjs/tamrin/nikta/Module07/ControlUnit.xst" -ofn "G:/prgs/prjs/tamrin/nikta/Module07/ControlUnit.syr" 
+xst -intstyle ise -ifn "G:/prgs/prjs/tamrin/nikta/Module07/ControlUnit.xst" -ofn "G:/prgs/prjs/tamrin/nikta/Module07/ControlUnit.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx4-tqg144-3 ControlUnit.ngc ControlUnit.ngd  
+map -intstyle ise -p xc6slx4-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o ControlUnit_map.ncd ControlUnit.ngd ControlUnit.pcf 
+par -w -intstyle ise -ol high -mt off ControlUnit_map.ncd ControlUnit.ncd ControlUnit.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml ControlUnit.twx ControlUnit.ncd -o ControlUnit.twr ControlUnit.pcf 
+xst -intstyle ise -ifn "G:/prgs/prjs/tamrin/nikta/Module07/ControlUnit.xst" -ofn "G:/prgs/prjs/tamrin/nikta/Module07/ControlUnit.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx4-tqg144-3 ControlUnit.ngc ControlUnit.ngd  
+map -intstyle ise -p xc6slx4-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o ControlUnit_map.ncd ControlUnit.ngd ControlUnit.pcf 
+par -w -intstyle ise -ol high -mt off ControlUnit_map.ncd ControlUnit.ncd ControlUnit.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml ControlUnit.twx ControlUnit.ncd -o ControlUnit.twr ControlUnit.pcf 
+xst -intstyle ise -ifn "G:/prgs/prjs/tamrin/nikta/Module07/ControlUnit.xst" -ofn "G:/prgs/prjs/tamrin/nikta/Module07/ControlUnit.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx4-tqg144-3 ControlUnit.ngc ControlUnit.ngd  
+map -intstyle ise -p xc6slx4-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o ControlUnit_map.ncd ControlUnit.ngd ControlUnit.pcf 
+par -w -intstyle ise -ol high -mt off ControlUnit_map.ncd ControlUnit.ncd ControlUnit.pcf 
+xst -intstyle ise -ifn "G:/prgs/prjs/tamrin/nikta/Module07/ControlUnit.xst" -ofn "G:/prgs/prjs/tamrin/nikta/Module07/ControlUnit.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx4-tqg144-3 ControlUnit.ngc ControlUnit.ngd  
+map -intstyle ise -p xc6slx4-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o ControlUnit_map.ncd ControlUnit.ngd ControlUnit.pcf 
+par -w -intstyle ise -ol high -mt off ControlUnit_map.ncd ControlUnit.ncd ControlUnit.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml ControlUnit.twx ControlUnit.ncd -o ControlUnit.twr ControlUnit.pcf 
+xst -intstyle ise -ifn "C:/Users/User/Documents/Module07/ControlUnit.xst" -ofn "C:/Users/User/Documents/Module07/ControlUnit.syr" 
+xst -intstyle ise -ifn "C:/Users/User/Documents/Module07/ControlUnit.xst" -ofn "C:/Users/User/Documents/Module07/ControlUnit.syr" 
+xst -intstyle ise -ifn "C:/Users/User/Documents/Module07/ControlUnit.xst" -ofn "C:/Users/User/Documents/Module07/ControlUnit.syr" 
+xst -intstyle ise -ifn "C:/Users/User/Documents/Module07/ControlUnit.xst" -ofn "C:/Users/User/Documents/Module07/ControlUnit.syr" 
+xst -intstyle ise -ifn "C:/Users/User/Documents/Module07/ControlUnit.xst" -ofn "C:/Users/User/Documents/Module07/ControlUnit.syr" 
+xst -intstyle ise -ifn "C:/Users/User/Documents/Module07/ControlUnit.xst" -ofn "C:/Users/User/Documents/Module07/ControlUnit.syr" 
+xst -intstyle ise -ifn "C:/Users/User/Documents/Module07/ControlUnit.xst" -ofn "C:/Users/User/Documents/Module07/ControlUnit.syr" 
+xst -intstyle ise -ifn "C:/Users/User/Documents/Module07/ControlUnit.xst" -ofn "C:/Users/User/Documents/Module07/ControlUnit.syr" 
+xst -intstyle ise -ifn "C:/Users/User/Documents/Module07/ControlUnit.xst" -ofn "C:/Users/User/Documents/Module07/ControlUnit.syr" 
+xst -intstyle ise -ifn "C:/Users/User/Documents/Module07/ControlUnit.xst" -ofn "C:/Users/User/Documents/Module07/ControlUnit.syr" 
+xst -intstyle ise -ifn "C:/Users/User/Documents/Module07/ControlUnit.xst" -ofn "C:/Users/User/Documents/Module07/ControlUnit.syr" 
+xst -intstyle ise -ifn "C:/Users/User/Documents/Module07/ControlUnit.xst" -ofn "C:/Users/User/Documents/Module07/ControlUnit.syr" 
+xst -intstyle ise -ifn "C:/Users/User/Documents/Module07/ControlUnit.xst" -ofn "C:/Users/User/Documents/Module07/ControlUnit.syr" 
+xst -intstyle ise -ifn "C:/Users/User/Documents/Module07/ControlUnit.xst" -ofn "C:/Users/User/Documents/Module07/ControlUnit.syr" 
+xst -intstyle ise -ifn "C:/Users/User/Documents/Module07/ControlUnit.xst" -ofn "C:/Users/User/Documents/Module07/ControlUnit.syr" 
+xst -intstyle ise -ifn "C:/Users/User/Documents/Module07/ControlUnit.xst" -ofn "C:/Users/User/Documents/Module07/ControlUnit.syr" 
+xst -intstyle ise -ifn "C:/Users/User/Documents/Module07/ControlUnit.xst" -ofn "C:/Users/User/Documents/Module07/ControlUnit.syr" 
+xst -intstyle ise -ifn "C:/Users/User/Documents/Module07/ControlUnit.xst" -ofn "C:/Users/User/Documents/Module07/ControlUnit.syr" 
+xst -intstyle ise -ifn "C:/Users/User/Documents/Module07/ControlUnit.xst" -ofn "C:/Users/User/Documents/Module07/ControlUnit.syr" 
+xst -intstyle ise -ifn "C:/Users/User/Documents/Module07/ControlUnit.xst" -ofn "C:/Users/User/Documents/Module07/ControlUnit.syr" 
+xst -intstyle ise -ifn "C:/Users/User/Documents/Module07/ControlUnit.xst" -ofn "C:/Users/User/Documents/Module07/ControlUnit.syr" 
+xst -intstyle ise -ifn "C:/Users/User/Documents/Module07/ControlUnit.xst" -ofn "C:/Users/User/Documents/Module07/ControlUnit.syr" 
+xst -intstyle ise -ifn "C:/Users/User/Documents/Module07/ControlUnit.xst" -ofn "C:/Users/User/Documents/Module07/ControlUnit.syr" 
+xst -intstyle ise -ifn "C:/Users/User/Documents/Module07/ControlUnit.xst" -ofn "C:/Users/User/Documents/Module07/ControlUnit.syr" 
+xst -intstyle ise -ifn "C:/Users/User/Documents/Module07/ControlUnit.xst" -ofn "C:/Users/User/Documents/Module07/ControlUnit.syr" 
+xst -intstyle ise -ifn "C:/Users/User/Documents/Module07/ControlUnit.xst" -ofn "C:/Users/User/Documents/Module07/ControlUnit.syr" 
+xst -intstyle ise -ifn "C:/Users/User/Documents/Module07/ControlUnit.xst" -ofn "C:/Users/User/Documents/Module07/ControlUnit.syr" 
+xst -intstyle ise -ifn "C:/Users/User/Documents/Module07/ControlUnit.xst" -ofn "C:/Users/User/Documents/Module07/ControlUnit.syr" 
+xst -intstyle ise -ifn "C:/Users/User/Documents/Module07/ControlUnit.xst" -ofn "C:/Users/User/Documents/Module07/ControlUnit.syr" 
+xst -intstyle ise -ifn "C:/Users/User/Documents/Module07/ControlUnit.xst" -ofn "C:/Users/User/Documents/Module07/ControlUnit.syr" 
+xst -intstyle ise -ifn "C:/Users/User/Documents/Module07/ControlUnit.xst" -ofn "C:/Users/User/Documents/Module07/ControlUnit.syr" 
+xst -intstyle ise -ifn "C:/Users/User/Documents/Module07/ControlUnit.xst" -ofn "C:/Users/User/Documents/Module07/ControlUnit.syr" 
+xst -intstyle ise -ifn "C:/Users/User/Documents/Module07/ControlUnit.xst" -ofn "C:/Users/User/Documents/Module07/ControlUnit.syr" 
+xst -intstyle ise -ifn "C:/Users/User/Documents/Module07/ControlUnit.xst" -ofn "C:/Users/User/Documents/Module07/ControlUnit.syr" 
+xst -intstyle ise -ifn "C:/Users/User/Documents/Module07/ControlUnit.xst" -ofn "C:/Users/User/Documents/Module07/ControlUnit.syr" 
+xst -intstyle ise -ifn "C:/Users/User/Documents/Module07/ControlUnit.xst" -ofn "C:/Users/User/Documents/Module07/ControlUnit.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx4-tqg144-3 ControlUnit.ngc ControlUnit.ngd  
+map -intstyle ise -p xc6slx4-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o ControlUnit_map.ncd ControlUnit.ngd ControlUnit.pcf 
+par -w -intstyle ise -ol high -mt off ControlUnit_map.ncd ControlUnit.ncd ControlUnit.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml ControlUnit.twx ControlUnit.ncd -o ControlUnit.twr ControlUnit.pcf 
+xst -intstyle ise -ifn "C:/Users/f/Desktop/rojina/madar Manteghi/Smart Home Management System/Module07/ControlUnit.xst" -ofn "C:/Users/f/Desktop/rojina/madar Manteghi/Smart Home Management System/Module07/ControlUnit.syr" 
+xst -intstyle ise -ifn "C:/Users/f/Desktop/rojina/madar Manteghi/Smart Home Management System/Module07/ControlUnit.xst" -ofn "C:/Users/f/Desktop/rojina/madar Manteghi/Smart Home Management System/Module07/ControlUnit.syr" 

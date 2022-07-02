@@ -1,0 +1,30 @@
+Command line:
+   ActiveLamps_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  3546
+
+Wed Jan 27 23:12:02 2021
+
+
+ Elaboration Time: 1.02961 sec
+
+ Current Memory Usage: 680.1 Meg
+
+ Total Signals          : 17
+ Total Nets             : 29
+ Total Signal Drivers   : 5
+ Total Blocks           : 2
+ Total Primitive Blocks : 2
+ Total Processes        : 8
+ Total Traceable Variables  : 20
+ Total Scalar Nets and Variables : 118
+In process ActiveLamps.vCont_33_0 
+ FATAL ERROR:ISim: This application has discovered an exceptional condition from which it cannot recover. Process will terminate. To search for possible resolutions to this issue, refer to the Xilinx answer database by going to http://www.xilinx.com/support/answers/index.htm and search with keywords 'ISim' and 'FATAL ERROR'. For technical support on this issue, please open a WebCase with this project attached at http://www.xilinx.com/support.
+
+ Total Simulation Time: 1.34161 sec
+
+ Current Memory Usage: 715.448 Meg
+
+Wed Jan 27 23:12:04 2021
+
